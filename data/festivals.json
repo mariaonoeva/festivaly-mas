@@ -1,0 +1,4112 @@
+{
+  "generated": "2026-11-13",
+  "count": 216,
+  "festivals": [
+    {
+      "id": "cz-colours-of-ostrava-ostrava",
+      "name": "Colours of Ostrava",
+      "type": "festival",
+      "genres": [
+        "multi-genre",
+        "pop",
+        "world"
+      ],
+      "country": "Czech Republic",
+      "city": "Ostrava",
+      "edition_year": 2027,
+      "date_from": "2027-07-21",
+      "date_to": "2027-07-24",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.colours.cz/",
+      "source_url": "https://www.colours.cz/en/about-festival/general-information/press/"
+    },
+    {
+      "id": "cz-rock-for-people-hradec-kralove",
+      "name": "Rock for People",
+      "type": "festival",
+      "genres": [
+        "rock",
+        "punk-hardcore",
+        "metal"
+      ],
+      "country": "Czech Republic",
+      "city": "Hradec Králové",
+      "edition_year": 2027,
+      "date_from": "2027-06-02",
+      "date_to": "2027-06-05",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://rockforpeople.cz/",
+      "source_url": "https://rockforpeople.cz/en/news/rock-for-people-2027-has-announced-its-date-and-first-headliner/"
+    },
+    {
+      "id": "cz-brutal-assault-jaromer",
+      "name": "Brutal Assault",
+      "type": "festival",
+      "genres": [
+        "metal",
+        "experimental"
+      ],
+      "country": "Czech Republic",
+      "city": "Jaroměř",
+      "edition_year": 2027,
+      "date_from": "2027-08-04",
+      "date_to": "2027-08-07",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://brutalassault.cz/",
+      "source_url": "https://brutalassault.cz/cs/festivalove-info"
+    },
+    {
+      "id": "cz-masters-of-rock-vizovice",
+      "name": "Masters of Rock",
+      "type": "festival",
+      "genres": [
+        "metal",
+        "rock"
+      ],
+      "country": "Czech Republic",
+      "city": "Vizovice",
+      "edition_year": 2027,
+      "date_from": "2027-07-08",
+      "date_to": "2027-07-11",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.mastersofrock.cz/",
+      "source_url": "https://www.mastersofrock.cz/cs/koncerty/2027-masters-of-rock"
+    },
+    {
+      "id": "cz-metalfest-open-air-plzen",
+      "name": "Metalfest Open Air",
+      "type": "festival",
+      "genres": [
+        "metal"
+      ],
+      "country": "Czech Republic",
+      "city": "Plzeň",
+      "edition_year": 2027,
+      "date_from": "2027-06-11",
+      "date_to": "2027-06-13",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.metalfest.cz/",
+      "source_url": "https://www.metalfest.cz/cs/koncerty/2027-metalfest-open-air"
+    },
+    {
+      "id": "cz-rock-castle-moravsky-krumlov",
+      "name": "Rock Castle",
+      "type": "festival",
+      "genres": [
+        "metal",
+        "rock"
+      ],
+      "country": "Czech Republic",
+      "city": "Moravský Krumlov",
+      "edition_year": 2027,
+      "date_from": "2027-08-12",
+      "date_to": "2027-08-14",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.rockcastle.cz/",
+      "source_url": "https://www.mastersofrock.cz/festivaly"
+    },
+    {
+      "id": "cz-beats-for-love-ostrava",
+      "name": "Beats for Love",
+      "type": "festival",
+      "genres": [
+        "electronic",
+        "techno-house"
+      ],
+      "country": "Czech Republic",
+      "city": "Ostrava",
+      "edition_year": 2027,
+      "date_from": "2027-07-02",
+      "date_to": "2027-07-05",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.b4l.cz/",
+      "source_url": "https://www.b4l.cz/en/novinky/beats-for-love-2027-reveals-a-new-visual-identity-and-confirms-four-festival-days/"
+    },
+    {
+      "id": "cz-let-it-roll-most",
+      "name": "Let It Roll",
+      "type": "festival",
+      "genres": [
+        "electronic"
+      ],
+      "country": "Czech Republic",
+      "city": "Most",
+      "edition_year": 2027,
+      "date_from": "2027-08-05",
+      "date_to": "2027-08-07",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://letitroll.cz/",
+      "source_url": "https://letitroll.cz/akce/let-it-roll-2027/"
+    },
+    {
+      "id": "cz-let-it-roll-winter-prague",
+      "name": "Let It Roll Winter",
+      "type": "festival",
+      "genres": [
+        "electronic"
+      ],
+      "country": "Czech Republic",
+      "city": "Prague",
+      "edition_year": 2027,
+      "date_from": "2027-01-23",
+      "date_to": "2027-01-24",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://letitroll.cz/",
+      "source_url": "https://tickets.letitroll.eu/"
+    },
+    {
+      "id": "cz-mighty-sounds-tabor",
+      "name": "Mighty Sounds",
+      "type": "festival",
+      "genres": [
+        "punk-hardcore",
+        "reggae-ska",
+        "rock"
+      ],
+      "country": "Czech Republic",
+      "city": "Tábor",
+      "edition_year": 2027,
+      "date_from": "2027-06-25",
+      "date_to": "2027-06-27",
+      "status": "confirmed",
+      "open_call": true,
+      "open_call_url": "https://www.mightysounds.cz/en/novinky/bandcontest2027",
+      "website": "https://www.mightysounds.cz/",
+      "source_url": "https://www.mightysounds.cz/faq"
+    },
+    {
+      "id": "cz-benatska-s-impulsem-liberec",
+      "name": "Benátská! s Impulsem",
+      "type": "festival",
+      "genres": [
+        "rock",
+        "pop",
+        "multi-genre"
+      ],
+      "country": "Czech Republic",
+      "city": "Liberec",
+      "edition_year": 2027,
+      "date_from": "2027-07-29",
+      "date_to": "2027-08-01",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.benatska.cz/",
+      "source_url": "https://www.benatska.cz/"
+    },
+    {
+      "id": "cz-united-islands-prague",
+      "name": "United Islands",
+      "type": "festival",
+      "genres": [
+        "multi-genre",
+        "indie-alternative"
+      ],
+      "country": "Czech Republic",
+      "city": "Prague",
+      "edition_year": 2027,
+      "date_from": "2027-04-29",
+      "date_to": "2027-05-01",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.unitedislands.cz/",
+      "source_url": "https://www.unitedislands.cz/en"
+    },
+    {
+      "id": "cz-slunovrat-opava",
+      "name": "Slunovrat",
+      "type": "festival",
+      "genres": [
+        "multi-genre",
+        "indie-alternative",
+        "folk-acoustic"
+      ],
+      "country": "Czech Republic",
+      "city": "Opava",
+      "edition_year": 2027,
+      "date_from": "2027-06-17",
+      "date_to": "2027-06-19",
+      "status": "confirmed",
+      "open_call": true,
+      "open_call_url": "https://www.festivalslunovrat.cz/en/open-call-for-kofola-welcome-stage-2027-2/",
+      "website": "https://www.festivalslunovrat.cz/",
+      "source_url": "https://www.festivalslunovrat.cz/en/open-call-for-kofola-welcome-stage-2027-2/"
+    },
+    {
+      "id": "cz-fajtfest-velke-mezirici",
+      "name": "FajtFest",
+      "type": "festival",
+      "genres": [
+        "punk-hardcore",
+        "metal"
+      ],
+      "country": "Czech Republic",
+      "city": "Velké Meziříčí",
+      "edition_year": 2027,
+      "date_from": "2027-07-01",
+      "date_to": "2027-07-03",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.fajtfest.com/",
+      "source_url": "https://www.fajtfest.com/en"
+    },
+    {
+      "id": "cz-fm-city-fest-frydek-mistek",
+      "name": "FM City Fest",
+      "type": "festival",
+      "genres": [
+        "pop",
+        "multi-genre"
+      ],
+      "country": "Czech Republic",
+      "city": "Frýdek-Místek",
+      "edition_year": 2027,
+      "date_from": "2027-06-25",
+      "date_to": "2027-06-26",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.fmcityfest.cz/",
+      "source_url": "https://www.fmcityfest.cz/"
+    },
+    {
+      "id": "cz-keltska-noc-plumlov",
+      "name": "Keltská noc",
+      "type": "festival",
+      "genres": [
+        "folk-acoustic",
+        "world"
+      ],
+      "country": "Czech Republic",
+      "city": "Plumlov",
+      "edition_year": 2027,
+      "date_from": "2027-07-15",
+      "date_to": "2027-07-17",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.keltska-noc.cz/",
+      "source_url": "https://www.keltska-noc.cz/en/festival/"
+    },
+    {
+      "id": "cz-m-o-a-modlikov-modlikov",
+      "name": "M.O.A Modlíkov",
+      "type": "festival",
+      "genres": [
+        "metal"
+      ],
+      "country": "Czech Republic",
+      "city": "Modlíkov",
+      "edition_year": 2027,
+      "date_from": "2027-07-03",
+      "date_to": "2027-07-03",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://moa.zodiac-band.com/",
+      "source_url": "https://moa.zodiac-band.com/"
+    },
+    {
+      "id": "cz-trutnoff-trutnov",
+      "name": "Trutnoff",
+      "type": "festival",
+      "genres": [
+        "rock",
+        "indie-alternative",
+        "punk-hardcore"
+      ],
+      "country": "Czech Republic",
+      "city": "Trutnov",
+      "edition_year": 2027,
+      "date_from": null,
+      "date_to": null,
+      "status": "announced",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.festivaltrutnoff.cz/",
+      "source_url": "https://www.festivaltrutnoff.cz/home/detail/273"
+    },
+    {
+      "id": "cz-basinfirefest-spalene-porici",
+      "name": "Basinfirefest",
+      "type": "festival",
+      "genres": [
+        "metal",
+        "rock"
+      ],
+      "country": "Czech Republic",
+      "city": "Spálené Poříčí",
+      "edition_year": 2027,
+      "date_from": "2027-06-23",
+      "date_to": "2027-06-26",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://basin.cz/",
+      "source_url": "https://basin.cz/en/tickets/detail/id/328"
+    },
+    {
+      "id": "cz-obscene-extreme-hradec-kralove",
+      "name": "Obscene Extreme",
+      "type": "festival",
+      "genres": [
+        "metal",
+        "punk-hardcore"
+      ],
+      "country": "Czech Republic",
+      "city": "Hradec Králové",
+      "edition_year": 2027,
+      "date_from": "2027-07-07",
+      "date_to": "2027-07-11",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://obsceneextreme.cz/",
+      "source_url": "https://park360.cz/en/2026/10/19/obscene-extreme-se-stehuje-do-parku-360/"
+    },
+    {
+      "id": "cz-metalgate-czech-death-fest-cerveny-kostelec",
+      "name": "MetalGate Czech Death Fest",
+      "type": "festival",
+      "genres": [
+        "metal"
+      ],
+      "country": "Czech Republic",
+      "city": "Červený Kostelec",
+      "edition_year": 2027,
+      "date_from": null,
+      "date_to": null,
+      "status": "announced",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.mgcdf.cz/",
+      "source_url": "https://www.mgcdf.cz/en/"
+    },
+    {
+      "id": "cz-machac-doksy",
+      "name": "Mácháč",
+      "type": "festival",
+      "genres": [
+        "electronic",
+        "techno-house"
+      ],
+      "country": "Czech Republic",
+      "city": "Doksy",
+      "edition_year": 2027,
+      "date_from": "2027-08-13",
+      "date_to": "2027-08-14",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.machac.cz/",
+      "source_url": "https://www.machac.cz/"
+    },
+    {
+      "id": "cz-barvy-leta-podebrady",
+      "name": "Barvy léta",
+      "type": "festival",
+      "genres": [
+        "rock",
+        "punk-hardcore",
+        "multi-genre"
+      ],
+      "country": "Czech Republic",
+      "city": "Poděbrady",
+      "edition_year": 2027,
+      "date_from": "2027-07-16",
+      "date_to": "2027-07-17",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.barvyleta.cz/",
+      "source_url": "https://www.barvyleta.cz/?page=aktualne"
+    },
+    {
+      "id": "cz-brnenecfest-brnenec",
+      "name": "Brněnecfest",
+      "type": "festival",
+      "genres": [
+        "punk-hardcore",
+        "rock",
+        "reggae-ska"
+      ],
+      "country": "Czech Republic",
+      "city": "Brněnec",
+      "edition_year": 2027,
+      "date_from": "2027-07-03",
+      "date_to": "2027-07-03",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.brnenecfest.cz/",
+      "source_url": "https://www.brnenecfest.cz/"
+    },
+    {
+      "id": "cz-coolin-festival-kolin",
+      "name": "Coolin Festival",
+      "type": "festival",
+      "genres": [
+        "pop",
+        "hip-hop",
+        "electronic"
+      ],
+      "country": "Czech Republic",
+      "city": "Kolín",
+      "edition_year": 2027,
+      "date_from": "2027-06-25",
+      "date_to": "2027-06-27",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://coolinfestival.cz/",
+      "source_url": "https://kolinsky.denik.cz/volny-cas/festivaly-na-kolinsku-budou-nabite-brod-1995-a-coolin-odhaluji-prvni-hvezdy/"
+    },
+    {
+      "id": "cz-pekelny-ostrov-holysov",
+      "name": "Pekelný ostrov",
+      "type": "festival",
+      "genres": [
+        "multi-genre",
+        "rock"
+      ],
+      "country": "Czech Republic",
+      "city": "Holýšov",
+      "edition_year": 2027,
+      "date_from": "2027-07-02",
+      "date_to": "2027-07-03",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.pekelnyostrov.cz/",
+      "source_url": "https://domazlicky.denik.cz/zpravy-region/poradatel-odpalil-prvni-kapely-na-festivaly-pekelny-ostrov-a-chodrockfest/"
+    },
+    {
+      "id": "cz-starak-fest-ricany",
+      "name": "Starák Fest",
+      "type": "festival",
+      "genres": [
+        "multi-genre"
+      ],
+      "country": "Czech Republic",
+      "city": "Říčany",
+      "edition_year": 2027,
+      "date_from": "2027-08-13",
+      "date_to": "2027-08-14",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://starak.cz/",
+      "source_url": "https://starak.cz/"
+    },
+    {
+      "id": "cz-summer-punk-party-volyne-volyne",
+      "name": "Summer Punk Párty Volyně",
+      "type": "festival",
+      "genres": [
+        "punk-hardcore"
+      ],
+      "country": "Czech Republic",
+      "city": "Volyně",
+      "edition_year": 2027,
+      "date_from": "2027-08-20",
+      "date_to": "2027-08-21",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "http://www.sppvolyne.cz/",
+      "source_url": "https://vikendo.cz/events/summer-punk-party-volyne-vol-xvi"
+    },
+    {
+      "id": "cz-tri-sestry-open-air-prague",
+      "name": "Tři sestry Open Air",
+      "type": "one-off",
+      "genres": [
+        "rock",
+        "punk-hardcore"
+      ],
+      "country": "Czech Republic",
+      "city": "Prague",
+      "edition_year": 2027,
+      "date_from": "2027-05-22",
+      "date_to": "2027-05-22",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://trisestry.cz/",
+      "source_url": "https://trisestry.cz/vstupenky/tri-sestry-42-let-open-air-praha-misto-bude-upresneno-2027-05-22"
+    },
+    {
+      "id": "cz-festival-muziq-tachov",
+      "name": "Festival Muziq",
+      "type": "festival",
+      "genres": [
+        "rock",
+        "metal"
+      ],
+      "country": "Czech Republic",
+      "city": "Tachov",
+      "edition_year": 2027,
+      "date_from": "2027-02-20",
+      "date_to": "2027-02-20",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://muziq.cz/",
+      "source_url": "https://muziq.cz/"
+    },
+    {
+      "id": "cz-punkplugged-fest-ujezd-u-prelouce",
+      "name": "Punkplugged fest",
+      "type": "festival",
+      "genres": [
+        "punk-hardcore",
+        "folk-acoustic"
+      ],
+      "country": "Czech Republic",
+      "city": "Újezd u Přelouče",
+      "edition_year": 2027,
+      "date_from": null,
+      "date_to": null,
+      "status": "announced",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.pacoustic.cz/",
+      "source_url": "https://www.pacoustic.cz/"
+    },
+    {
+      "id": "cz-votvirak-milovice",
+      "name": "Votvírák",
+      "type": "festival",
+      "genres": [
+        "rock",
+        "pop",
+        "hip-hop"
+      ],
+      "country": "Czech Republic",
+      "city": "Milovice",
+      "edition_year": 2027,
+      "date_from": null,
+      "date_to": null,
+      "status": "announced",
+      "open_call": false,
+      "open_call_url": null,
+      "website": null,
+      "source_url": "https://www.seznamzpravy.cz/tag/votvirak-57409"
+    },
+    {
+      "id": "cz-big-summer-fest-hradec-kralove",
+      "name": "Big Summer Fest",
+      "type": "festival",
+      "genres": [
+        "pop",
+        "electronic"
+      ],
+      "country": "Czech Republic",
+      "city": "Hradec Králové",
+      "edition_year": 2027,
+      "date_from": "2027-08-19",
+      "date_to": "2027-08-21",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": null,
+      "source_url": "https://festivaly.eu/en/music/czechia?top=true"
+    },
+    {
+      "id": "cz-hip-hop-kemp-vyrov-u-kralovic",
+      "name": "Hip Hop Kemp",
+      "type": "festival",
+      "genres": [
+        "hip-hop"
+      ],
+      "country": "Czech Republic",
+      "city": "Výrov u Kralovic",
+      "edition_year": 2026,
+      "date_from": "2026-08-21",
+      "date_to": "2026-08-22",
+      "status": "cancelled",
+      "open_call": false,
+      "open_call_url": null,
+      "website": null,
+      "source_url": "https://ct24.ceskatelevize.cz/clanek/kultura/hip-hop-kemp-na-posledni-chvili-zrusil-letosni-rocnik-376818"
+    },
+    {
+      "id": "cz-prazsky-majales-prague",
+      "name": "Pražský Majáles",
+      "type": "festival",
+      "genres": [
+        "multi-genre",
+        "pop",
+        "electronic"
+      ],
+      "country": "Czech Republic",
+      "city": "Prague",
+      "edition_year": 2027,
+      "date_from": "2027-05-01",
+      "date_to": "2027-05-01",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://praha.majales.cz/",
+      "source_url": "https://praha.majales.cz/"
+    },
+    {
+      "id": "cz-brnensky-majales-brno",
+      "name": "Brněnský Majáles",
+      "type": "festival",
+      "genres": [
+        "multi-genre",
+        "pop",
+        "electronic"
+      ],
+      "country": "Czech Republic",
+      "city": "Brno",
+      "edition_year": 2027,
+      "date_from": "2027-05-15",
+      "date_to": "2027-05-15",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://brno.majales.cz/",
+      "source_url": "https://vstupenky2027.majales.cz/"
+    },
+    {
+      "id": "cz-ostravsky-majales-ostrava",
+      "name": "Ostravský Majáles",
+      "type": "festival",
+      "genres": [
+        "multi-genre",
+        "pop",
+        "electronic"
+      ],
+      "country": "Czech Republic",
+      "city": "Ostrava",
+      "edition_year": 2027,
+      "date_from": "2027-05-08",
+      "date_to": "2027-05-08",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://ostrava.majales.cz/",
+      "source_url": "https://ostrava.majales.cz/"
+    },
+    {
+      "id": "cz-hradecky-majales-hradec-kralove",
+      "name": "Hradecký Majáles",
+      "type": "festival",
+      "genres": [
+        "multi-genre",
+        "pop",
+        "electronic"
+      ],
+      "country": "Czech Republic",
+      "city": "Hradec Králové",
+      "edition_year": 2027,
+      "date_from": "2027-04-24",
+      "date_to": "2027-04-24",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://hradec.majales.cz/",
+      "source_url": "https://hradec.majales.cz/program-vstupenky/"
+    },
+    {
+      "id": "cz-plzensky-majales-plzen",
+      "name": "Plzeňský Majáles",
+      "type": "festival",
+      "genres": [
+        "multi-genre",
+        "pop",
+        "hip-hop"
+      ],
+      "country": "Czech Republic",
+      "city": "Plzeň",
+      "edition_year": 2027,
+      "date_from": "2027-04-17",
+      "date_to": "2027-04-17",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.plzenskymajales.cz/",
+      "source_url": "https://www.plzenskymajales.cz/"
+    },
+    {
+      "id": "cz-budejovicky-majales-ceske-budejovice",
+      "name": "Budějovický Majáles",
+      "type": "festival",
+      "genres": [
+        "multi-genre",
+        "electronic",
+        "indie-alternative"
+      ],
+      "country": "Czech Republic",
+      "city": "České Budějovice",
+      "edition_year": 2026,
+      "date_from": "2026-05-31",
+      "date_to": "2026-06-05",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://budejovickymajales.cz/",
+      "source_url": "https://budejovickymajales.cz/o-festivalu"
+    },
+    {
+      "id": "cz-olomoucky-majales-olomouc",
+      "name": "Olomoucký majáles",
+      "type": "festival",
+      "genres": [
+        "multi-genre",
+        "rock",
+        "electronic"
+      ],
+      "country": "Czech Republic",
+      "city": "Olomouc",
+      "edition_year": 2026,
+      "date_from": "2026-05-06",
+      "date_to": "2026-05-07",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://olomouckymajales.cz/",
+      "source_url": "https://olomouckymajales.cz/"
+    },
+    {
+      "id": "cz-hrady-cz-tocnik",
+      "name": "Hrady CZ",
+      "type": "festival",
+      "genres": [
+        "rock",
+        "pop",
+        "multi-genre"
+      ],
+      "country": "Czech Republic",
+      "city": "Točník",
+      "edition_year": 2027,
+      "date_from": "2027-07-09",
+      "date_to": "2027-07-10",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.hradycz.cz/",
+      "source_url": "https://www.hradycz.cz/novinky2/Kdy-budou-Hrady-v-roce-2027__s8x1204.html"
+    },
+    {
+      "id": "cz-hrady-cz-kuneticka-hora",
+      "name": "Hrady CZ",
+      "type": "festival",
+      "genres": [
+        "rock",
+        "pop",
+        "multi-genre"
+      ],
+      "country": "Czech Republic",
+      "city": "Kunětická hora",
+      "edition_year": 2027,
+      "date_from": "2027-07-16",
+      "date_to": "2027-07-17",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.hradycz.cz/",
+      "source_url": "https://www.hradycz.cz/novinky2/Kdy-budou-Hrady-v-roce-2027__s8x1204.html"
+    },
+    {
+      "id": "cz-hrady-cz-svihov",
+      "name": "Hrady CZ",
+      "type": "festival",
+      "genres": [
+        "rock",
+        "pop",
+        "multi-genre"
+      ],
+      "country": "Czech Republic",
+      "city": "Švihov",
+      "edition_year": 2027,
+      "date_from": "2027-07-23",
+      "date_to": "2027-07-24",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.hradycz.cz/",
+      "source_url": "https://www.hradycz.cz/novinky2/Kdy-budou-Hrady-v-roce-2027__s8x1204.html"
+    },
+    {
+      "id": "cz-hrady-cz-hluboka-nad-vltavou",
+      "name": "Hrady CZ",
+      "type": "festival",
+      "genres": [
+        "rock",
+        "pop",
+        "multi-genre"
+      ],
+      "country": "Czech Republic",
+      "city": "Hluboká nad Vltavou",
+      "edition_year": 2027,
+      "date_from": "2027-07-30",
+      "date_to": "2027-07-31",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.hradycz.cz/",
+      "source_url": "https://www.hradycz.cz/novinky2/Kdy-budou-Hrady-v-roce-2027__s8x1204.html"
+    },
+    {
+      "id": "cz-hrady-cz-veveri",
+      "name": "Hrady CZ",
+      "type": "festival",
+      "genres": [
+        "rock",
+        "pop",
+        "multi-genre"
+      ],
+      "country": "Czech Republic",
+      "city": "Veveří",
+      "edition_year": 2027,
+      "date_from": "2027-08-06",
+      "date_to": "2027-08-07",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.hradycz.cz/",
+      "source_url": "https://www.hradycz.cz/novinky2/Kdy-budou-Hrady-v-roce-2027__s8x1204.html"
+    },
+    {
+      "id": "cz-hrady-cz-hradec-nad-moravici",
+      "name": "Hrady CZ",
+      "type": "festival",
+      "genres": [
+        "rock",
+        "pop",
+        "multi-genre"
+      ],
+      "country": "Czech Republic",
+      "city": "Hradec nad Moravicí",
+      "edition_year": 2027,
+      "date_from": "2027-08-13",
+      "date_to": "2027-08-14",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.hradycz.cz/",
+      "source_url": "https://www.hradycz.cz/novinky2/Kdy-budou-Hrady-v-roce-2027__s8x1204.html"
+    },
+    {
+      "id": "cz-hrady-cz-bouzov",
+      "name": "Hrady CZ",
+      "type": "festival",
+      "genres": [
+        "rock",
+        "pop",
+        "multi-genre"
+      ],
+      "country": "Czech Republic",
+      "city": "Bouzov",
+      "edition_year": 2027,
+      "date_from": "2027-08-20",
+      "date_to": "2027-08-21",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.hradycz.cz/",
+      "source_url": "https://www.hradycz.cz/novinky2/Kdy-budou-Hrady-v-roce-2027__s8x1204.html"
+    },
+    {
+      "id": "cz-hrady-cz-bezdez",
+      "name": "Hrady CZ",
+      "type": "festival",
+      "genres": [
+        "rock",
+        "pop",
+        "multi-genre"
+      ],
+      "country": "Czech Republic",
+      "city": "Bezděz",
+      "edition_year": 2027,
+      "date_from": "2027-08-27",
+      "date_to": "2027-08-28",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.hradycz.cz/",
+      "source_url": "https://www.hradycz.cz/novinky2/Kdy-budou-Hrady-v-roce-2027__s8x1204.html"
+    },
+    {
+      "id": "cz-bohemia-jazzfest-prague",
+      "name": "Bohemia JazzFest",
+      "type": "festival",
+      "genres": [
+        "jazz-blues",
+        "world"
+      ],
+      "country": "Czech Republic",
+      "city": "Prague",
+      "edition_year": 2026,
+      "date_from": "2026-07-14",
+      "date_to": "2026-07-14",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.bohemiajazzfest.cz/",
+      "source_url": "https://www.cb-hl.cz/aktuality/191-bohemia-jazzfest-2026"
+    },
+    {
+      "id": "cz-bohemia-jazzfest-plzen",
+      "name": "Bohemia JazzFest",
+      "type": "festival",
+      "genres": [
+        "jazz-blues",
+        "world"
+      ],
+      "country": "Czech Republic",
+      "city": "Plzeň",
+      "edition_year": 2026,
+      "date_from": "2026-07-15",
+      "date_to": "2026-07-15",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.bohemiajazzfest.cz/",
+      "source_url": "https://www.cb-hl.cz/aktuality/191-bohemia-jazzfest-2026"
+    },
+    {
+      "id": "cz-bohemia-jazzfest-prachatice",
+      "name": "Bohemia JazzFest",
+      "type": "festival",
+      "genres": [
+        "jazz-blues",
+        "world"
+      ],
+      "country": "Czech Republic",
+      "city": "Prachatice",
+      "edition_year": 2026,
+      "date_from": "2026-07-17",
+      "date_to": "2026-07-17",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.bohemiajazzfest.cz/",
+      "source_url": "https://www.cb-hl.cz/aktuality/191-bohemia-jazzfest-2026"
+    },
+    {
+      "id": "cz-bohemia-jazzfest-hluboka-nad-vltavou",
+      "name": "Bohemia JazzFest",
+      "type": "festival",
+      "genres": [
+        "jazz-blues",
+        "world"
+      ],
+      "country": "Czech Republic",
+      "city": "Hluboká nad Vltavou",
+      "edition_year": 2026,
+      "date_from": "2026-07-18",
+      "date_to": "2026-07-18",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.bohemiajazzfest.cz/",
+      "source_url": "https://www.cb-hl.cz/aktuality/191-bohemia-jazzfest-2026"
+    },
+    {
+      "id": "cz-bohemia-jazzfest-brno",
+      "name": "Bohemia JazzFest",
+      "type": "festival",
+      "genres": [
+        "jazz-blues",
+        "world"
+      ],
+      "country": "Czech Republic",
+      "city": "Brno",
+      "edition_year": 2026,
+      "date_from": "2026-07-20",
+      "date_to": "2026-07-21",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.bohemiajazzfest.cz/",
+      "source_url": "https://www.cb-hl.cz/aktuality/191-bohemia-jazzfest-2026"
+    },
+    {
+      "id": "cz-creepy-teepee-prague",
+      "name": "Creepy Teepee",
+      "type": "festival",
+      "genres": [
+        "experimental",
+        "electronic",
+        "indie-alternative"
+      ],
+      "country": "Czech Republic",
+      "city": "Prague",
+      "edition_year": 2026,
+      "date_from": "2026-07-10",
+      "date_to": "2026-07-12",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://creepyteepee.org/",
+      "source_url": "https://creepyteepee.org/"
+    },
+    {
+      "id": "cz-povalec-valec",
+      "name": "Povaleč",
+      "type": "festival",
+      "genres": [
+        "multi-genre",
+        "indie-alternative",
+        "electronic"
+      ],
+      "country": "Czech Republic",
+      "city": "Valeč",
+      "edition_year": 2026,
+      "date_from": "2026-08-06",
+      "date_to": "2026-08-08",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://povalec.cz/",
+      "source_url": "https://festivaly.eu/sk/povalec-2026"
+    },
+    {
+      "id": "cz-beseda-u-bigbitu-tasov",
+      "name": "Beseda u Bigbítu",
+      "type": "festival",
+      "genres": [
+        "indie-alternative",
+        "folk-acoustic",
+        "experimental"
+      ],
+      "country": "Czech Republic",
+      "city": "Tasov",
+      "edition_year": 2026,
+      "date_from": "2026-07-31",
+      "date_to": "2026-08-01",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.besedaubigbitu.cz/",
+      "source_url": "https://www.besedaubigbitu.cz/en/about"
+    },
+    {
+      "id": "cz-bezmez-x-moon-noize-velke-mezirici",
+      "name": "Bezmez x Moon Noize",
+      "type": "festival",
+      "genres": [
+        "multi-genre",
+        "electronic",
+        "punk-hardcore"
+      ],
+      "country": "Czech Republic",
+      "city": "Velké Meziříčí",
+      "edition_year": 2026,
+      "date_from": "2026-08-20",
+      "date_to": "2026-08-23",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://moonnoize.cz/",
+      "source_url": "https://moonnoize.cz/o-nas/"
+    },
+    {
+      "id": "cz-festival-boskovice-boskovice",
+      "name": "Festival Boskovice",
+      "type": "festival",
+      "genres": [
+        "multi-genre",
+        "indie-alternative",
+        "jazz-blues"
+      ],
+      "country": "Czech Republic",
+      "city": "Boskovice",
+      "edition_year": 2026,
+      "date_from": "2026-07-09",
+      "date_to": "2026-07-12",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.boskovice-festival.cz/",
+      "source_url": "https://www.boskovice-festival.cz/cs/9-12-cervence-2026"
+    },
+    {
+      "id": "cz-festival-alternativa-prague",
+      "name": "Festival Alternativa",
+      "type": "festival",
+      "genres": [
+        "experimental",
+        "electronic",
+        "indie-alternative"
+      ],
+      "country": "Czech Republic",
+      "city": "Prague",
+      "edition_year": 2026,
+      "date_from": "2026-10-30",
+      "date_to": "2026-11-14",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.alternativa-festival.cz/",
+      "source_url": "https://www.alternativa-festival.cz/en/alternativa-festival"
+    },
+    {
+      "id": "cz-lunchmeat-festival-prague",
+      "name": "Lunchmeat Festival",
+      "type": "festival",
+      "genres": [
+        "electronic",
+        "experimental"
+      ],
+      "country": "Czech Republic",
+      "city": "Prague",
+      "edition_year": 2026,
+      "date_from": "2026-09-24",
+      "date_to": "2026-09-27",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://lunchmeatfestival.cz/",
+      "source_url": "https://lunchmeatfestival.cz/2026/tickets/"
+    },
+    {
+      "id": "cz-spectaculare-prague",
+      "name": "Spectaculare",
+      "type": "festival",
+      "genres": [
+        "experimental",
+        "electronic"
+      ],
+      "country": "Czech Republic",
+      "city": "Prague",
+      "edition_year": 2026,
+      "date_from": "2026-03-05",
+      "date_to": "2026-04-10",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.spectaculare.cz/",
+      "source_url": "https://www.spectaculare.cz/en/udalosti/rafael-anton-irisarri-infinite-space-av-show"
+    },
+    {
+      "id": "cz-pop-messe-brno",
+      "name": "Pop Messe",
+      "type": "festival",
+      "genres": [
+        "pop",
+        "electronic",
+        "indie-alternative"
+      ],
+      "country": "Czech Republic",
+      "city": "Brno",
+      "edition_year": 2026,
+      "date_from": "2026-08-06",
+      "date_to": "2026-08-08",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://popmesse.cz/",
+      "source_url": "https://popmesse.cz/faq-2/"
+    },
+    {
+      "id": "cz-vysocina-fest-jihlava",
+      "name": "Vysočina Fest",
+      "type": "festival",
+      "genres": [
+        "multi-genre",
+        "pop",
+        "rock"
+      ],
+      "country": "Czech Republic",
+      "city": "Jihlava",
+      "edition_year": 2026,
+      "date_from": "2026-07-02",
+      "date_to": "2026-07-04",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.vysocinafest.cz/",
+      "source_url": "https://www.jihlavske-listy.cz/clanek/57146-vysocina-fest-otevre-ctyri-stage"
+    },
+    {
+      "id": "cz-sterkovna-open-music-hlucin",
+      "name": "Štěrkovna Open Music",
+      "type": "festival",
+      "genres": [
+        "multi-genre",
+        "pop",
+        "rock"
+      ],
+      "country": "Czech Republic",
+      "city": "Hlučín",
+      "edition_year": 2026,
+      "date_from": "2026-07-23",
+      "date_to": "2026-07-25",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": null,
+      "source_url": "https://www.hlucin.cz/dre-cs/37360-sterkovna-open-music-2026.html"
+    },
+    {
+      "id": "cz-zizkovska-noc-prague",
+      "name": "Žižkovská noc",
+      "type": "festival",
+      "genres": [
+        "multi-genre",
+        "rock",
+        "indie-alternative"
+      ],
+      "country": "Czech Republic",
+      "city": "Prague",
+      "edition_year": 2026,
+      "date_from": "2026-03-20",
+      "date_to": "2026-03-21",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "http://www.zizkovskanoc.net/",
+      "source_url": "https://art.ceskatelevize.cz/kulturni-prehled/zizkovska-noc-2026-sobota/0DJSU"
+    },
+    {
+      "id": "cz-krakor-ostopovice",
+      "name": "Krákor",
+      "type": "festival",
+      "genres": [
+        "rock",
+        "punk-hardcore"
+      ],
+      "country": "Czech Republic",
+      "city": "Ostopovice",
+      "edition_year": 2026,
+      "date_from": "2026-06-26",
+      "date_to": "2026-06-28",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://spodniproudy.cz/",
+      "source_url": "https://spodniproudy.cz/krakor-2026/"
+    },
+    {
+      "id": "cz-let-s-go-fest-trebiz",
+      "name": "Let's Go Fest",
+      "type": "festival",
+      "genres": [
+        "punk-hardcore",
+        "rock"
+      ],
+      "country": "Czech Republic",
+      "city": "Třebíz",
+      "edition_year": 2026,
+      "date_from": "2026-07-31",
+      "date_to": "2026-08-01",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.letsgofest.cz/",
+      "source_url": "https://www.letsgofest.cz/"
+    },
+    {
+      "id": "cz-god-save-the-chaos-strelske-hostice",
+      "name": "God Save the Chaos",
+      "type": "festival",
+      "genres": [
+        "punk-hardcore"
+      ],
+      "country": "Czech Republic",
+      "city": "Střelské Hoštice",
+      "edition_year": 2026,
+      "date_from": "2026-06-13",
+      "date_to": "2026-06-13",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": null,
+      "source_url": "https://rockplanet.cz/god-save-the-chaos-2026-dvanacty-rocnik-punkoveho-svatku-priveze-do-strelskych-hostic-deset-kapel-a-den-plny-energie/"
+    },
+    {
+      "id": "cz-motak-fest-trebetice",
+      "name": "Moták Fest",
+      "type": "festival",
+      "genres": [
+        "multi-genre",
+        "rock",
+        "metal"
+      ],
+      "country": "Czech Republic",
+      "city": "Třebětice",
+      "edition_year": 2026,
+      "date_from": "2026-06-12",
+      "date_to": "2026-06-13",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.motakfest.cz/",
+      "source_url": "https://www.motakfest.cz/informace"
+    },
+    {
+      "id": "cz-rock-for-jk-manetin-manetin",
+      "name": "Rock for JK Manětín",
+      "type": "festival",
+      "genres": [
+        "rock",
+        "punk-hardcore",
+        "metal"
+      ],
+      "country": "Czech Republic",
+      "city": "Manětín",
+      "edition_year": 2026,
+      "date_from": "2026-06-20",
+      "date_to": "2026-06-20",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": null,
+      "source_url": "https://goout.net/en/rock-for-jk-manetin/szstldy/"
+    },
+    {
+      "id": "cz-death-coffee-party-litomerice",
+      "name": "Death Coffee Party",
+      "type": "festival",
+      "genres": [
+        "metal",
+        "rock"
+      ],
+      "country": "Czech Republic",
+      "city": "Litoměřice",
+      "edition_year": 2026,
+      "date_from": "2026-08-21",
+      "date_to": "2026-08-22",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://deathcoffee.cz/",
+      "source_url": "https://deathcoffee.cz/"
+    },
+    {
+      "id": "cz-symbolic-open-air-tri-dvory",
+      "name": "Symbolic Open Air",
+      "type": "festival",
+      "genres": [
+        "metal"
+      ],
+      "country": "Czech Republic",
+      "city": "Tři Dvory",
+      "edition_year": 2026,
+      "date_from": "2026-08-21",
+      "date_to": "2026-08-22",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.symbolic.cz/",
+      "source_url": "https://rocklist.cz/jubilejni-10-rocnik-symbolic-open-air-se-blizi/"
+    },
+    {
+      "id": "cz-tones-of-decay-prague",
+      "name": "Tones of Decay",
+      "type": "festival",
+      "genres": [
+        "metal"
+      ],
+      "country": "Czech Republic",
+      "city": "Prague",
+      "edition_year": 2026,
+      "date_from": "2026-04-17",
+      "date_to": "2026-04-18",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://tonesofdecay.com/",
+      "source_url": "https://www.marastmusic.com/akce/tones-of-decay-2026"
+    },
+    {
+      "id": "cz-front-line-fest-brno",
+      "name": "Front Line Fest",
+      "type": "festival",
+      "genres": [
+        "metal"
+      ],
+      "country": "Czech Republic",
+      "city": "Brno",
+      "edition_year": 2026,
+      "date_from": "2026-03-07",
+      "date_to": "2026-03-07",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": null,
+      "source_url": "https://www.rebelsound.eu/l/front-line-fest-unleashes-its-strongest-lineup-yet-cad-vanguard-and-abyss-above-lead-the-charge/"
+    },
+    {
+      "id": "cz-front-line-fest-open-air-brno",
+      "name": "Front Line Fest Open Air",
+      "type": "festival",
+      "genres": [
+        "metal"
+      ],
+      "country": "Czech Republic",
+      "city": "Brno",
+      "edition_year": 2026,
+      "date_from": "2026-07-25",
+      "date_to": "2026-07-25",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": null,
+      "source_url": "https://www.metal-line.cz/articles/list/front-line-fest"
+    },
+    {
+      "id": "cz-sabat-fest-v-zemi-keltu-nasavrky",
+      "name": "Sabat Fest v Zemi Keltů",
+      "type": "festival",
+      "genres": [
+        "folk-acoustic",
+        "rock"
+      ],
+      "country": "Czech Republic",
+      "city": "Nasavrky",
+      "edition_year": 2026,
+      "date_from": "2026-08-14",
+      "date_to": "2026-08-15",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": null,
+      "source_url": "https://festivaly.eu/en/sabat-fest-v-zemi-keltu-2026"
+    },
+    {
+      "id": "cz-sabor-latino-praha-prague",
+      "name": "Sabor Latino Praha",
+      "type": "festival",
+      "genres": [
+        "world"
+      ],
+      "country": "Czech Republic",
+      "city": "Prague",
+      "edition_year": 2026,
+      "date_from": "2026-07-02",
+      "date_to": "2026-07-05",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.facebook.com/saborlatinopraha",
+      "source_url": "https://www.praguest.com/en/4748-sabor-latino-prague"
+    },
+    {
+      "id": "cz-respect-festival-prague",
+      "name": "Respect Festival",
+      "type": "festival",
+      "genres": [
+        "world",
+        "jazz-blues",
+        "experimental"
+      ],
+      "country": "Czech Republic",
+      "city": "Prague",
+      "edition_year": 2027,
+      "date_from": "2027-06-12",
+      "date_to": "2027-06-13",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://rachot.cz/en/festival/",
+      "source_url": "https://rachot.cz/en/respect-festival-open-air-2027-3/"
+    },
+    {
+      "id": "cz-czech-music-crossroads-ostrava",
+      "name": "Czech Music Crossroads",
+      "type": "showcase",
+      "genres": [
+        "world",
+        "jazz-blues",
+        "experimental"
+      ],
+      "country": "Czech Republic",
+      "city": "Ostrava",
+      "edition_year": 2026,
+      "date_from": "2026-06-25",
+      "date_to": "2026-06-27",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.crossroadsmusic.cz/",
+      "source_url": "https://www.crossroadsmusic.cz/en/informace-cmc"
+    },
+    {
+      "id": "cz-folkove-prazdniny-namest-nad-oslavou",
+      "name": "Folkové prázdniny",
+      "type": "festival",
+      "genres": [
+        "folk-acoustic",
+        "world",
+        "experimental"
+      ],
+      "country": "Czech Republic",
+      "city": "Náměšť nad Oslavou",
+      "edition_year": 2027,
+      "date_from": "2027-07-24",
+      "date_to": "2027-07-31",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.folkoveprazdniny.cz/",
+      "source_url": "https://theglobalfestivalmap.com/en/festival/folkove-prazdniny-folk-holidays"
+    },
+    {
+      "id": "cz-okolo-trebone-trebon",
+      "name": "Okolo Třeboně",
+      "type": "festival",
+      "genres": [
+        "folk-acoustic",
+        "rock",
+        "multi-genre"
+      ],
+      "country": "Czech Republic",
+      "city": "Třeboň",
+      "edition_year": 2026,
+      "date_from": "2026-06-26",
+      "date_to": "2026-07-06",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.okolotrebone.cz/",
+      "source_url": "https://www.trebonsko.cz/festival-okolo-trebone-2026"
+    },
+    {
+      "id": "cz-prazdniny-v-telci-telc",
+      "name": "Prázdniny v Telči",
+      "type": "festival",
+      "genres": [
+        "folk-acoustic",
+        "world",
+        "multi-genre"
+      ],
+      "country": "Czech Republic",
+      "city": "Telč",
+      "edition_year": 2027,
+      "date_from": "2027-07-30",
+      "date_to": "2027-08-15",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://prazdninyvtelci.cz/",
+      "source_url": "https://prazdninyvtelci.cz/"
+    },
+    {
+      "id": "cz-porta-revnice",
+      "name": "Porta",
+      "type": "festival",
+      "genres": [
+        "folk-acoustic"
+      ],
+      "country": "Czech Republic",
+      "city": "Řevnice",
+      "edition_year": 2027,
+      "date_from": "2027-06-25",
+      "date_to": "2027-06-27",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://porta-festival.cz/",
+      "source_url": "https://folkfesty.cz/"
+    },
+    {
+      "id": "cz-folkova-lipnice-lipnice-nad-sazavou",
+      "name": "Folková Lipnice",
+      "type": "festival",
+      "genres": [
+        "folk-acoustic",
+        "indie-alternative"
+      ],
+      "country": "Czech Republic",
+      "city": "Lipnice nad Sázavou",
+      "edition_year": 2027,
+      "date_from": "2027-09-10",
+      "date_to": "2027-09-12",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.folkovalipnice.cz/",
+      "source_url": "https://www.folkovalipnice.cz/"
+    },
+    {
+      "id": "cz-mohelnicky-folkfest-mohelnice",
+      "name": "Mohelnický FolkFest",
+      "type": "festival",
+      "genres": [
+        "folk-acoustic"
+      ],
+      "country": "Czech Republic",
+      "city": "Mohelnice",
+      "edition_year": 2027,
+      "date_from": "2027-08-26",
+      "date_to": "2027-08-29",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.folk-fest.cz/",
+      "source_url": "https://www.folk-fest.cz/"
+    },
+    {
+      "id": "cz-razicky-prazec-razice",
+      "name": "Ražický pražec",
+      "type": "festival",
+      "genres": [
+        "folk-acoustic"
+      ],
+      "country": "Czech Republic",
+      "city": "Ražice",
+      "edition_year": 2027,
+      "date_from": "2027-05-14",
+      "date_to": "2027-05-16",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": null,
+      "source_url": "https://folkfesty.cz/"
+    },
+    {
+      "id": "cz-liptalske-slavnosti-liptal",
+      "name": "Liptálské slavnosti",
+      "type": "festival",
+      "genres": [
+        "folk-acoustic",
+        "world"
+      ],
+      "country": "Czech Republic",
+      "city": "Liptál",
+      "edition_year": 2026,
+      "date_from": "2026-08-19",
+      "date_to": "2026-08-24",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://lipta.liptal.cz/",
+      "source_url": "https://lipta.liptal.cz/index.php?page=57-festival-2026"
+    },
+    {
+      "id": "cz-mezinarodni-dudacky-festival-strakonice-strakonice",
+      "name": "Mezinárodní dudácký festival Strakonice",
+      "type": "festival",
+      "genres": [
+        "folk-acoustic",
+        "world"
+      ],
+      "country": "Czech Republic",
+      "city": "Strakonice",
+      "edition_year": 2026,
+      "date_from": "2026-08-20",
+      "date_to": "2026-08-23",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.dudackyfestival.cz/",
+      "source_url": "https://www.dudackyfestival.cz/"
+    },
+    {
+      "id": "cz-ujezdske-babi-leto-dolni-ujezd",
+      "name": "Újezdské babí léto",
+      "type": "festival",
+      "genres": [
+        "folk-acoustic",
+        "world"
+      ],
+      "country": "Czech Republic",
+      "city": "Dolní Újezd",
+      "edition_year": 2026,
+      "date_from": "2026-08-21",
+      "date_to": "2026-08-22",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": null,
+      "source_url": "https://festivaly.eu/en/ujezdske-babi-leto-2026"
+    },
+    {
+      "id": "cz-mezinarodni-folklorni-festival-straznice-straznice",
+      "name": "Mezinárodní folklorní festival Strážnice",
+      "type": "festival",
+      "genres": [
+        "folk-acoustic",
+        "world"
+      ],
+      "country": "Czech Republic",
+      "city": "Strážnice",
+      "edition_year": 2026,
+      "date_from": "2026-06-25",
+      "date_to": "2026-06-28",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": null,
+      "source_url": "https://www.kudyznudy.cz/aktuality/za-folklorem-na-festivaly"
+    },
+    {
+      "id": "cz-prague-folklore-days-prague",
+      "name": "Prague Folklore Days",
+      "type": "festival",
+      "genres": [
+        "folk-acoustic",
+        "world"
+      ],
+      "country": "Czech Republic",
+      "city": "Prague",
+      "edition_year": 2027,
+      "date_from": "2027-07-17",
+      "date_to": "2027-07-18",
+      "status": "confirmed",
+      "open_call": true,
+      "open_call_url": "https://praguefestival.cz/folklore/",
+      "website": "https://praguefestival.cz/folklore/",
+      "source_url": "https://praguefestival.cz/folklore/"
+    },
+    {
+      "id": "cz-chrudimske-dozinky-chrudim",
+      "name": "Chrudimské dožínky",
+      "type": "festival",
+      "genres": [
+        "folk-acoustic",
+        "world"
+      ],
+      "country": "Czech Republic",
+      "city": "Chrudim",
+      "edition_year": 2027,
+      "date_from": "2027-09-03",
+      "date_to": "2027-09-05",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.chrudimskabeseda.cz/",
+      "source_url": "https://www.chrudimskabeseda.cz/akce/chrudimske-dozinky-2/"
+    },
+    {
+      "id": "cz-lidovy-rok-velka-bystrice",
+      "name": "Lidový rok",
+      "type": "festival",
+      "genres": [
+        "folk-acoustic",
+        "world"
+      ],
+      "country": "Czech Republic",
+      "city": "Velká Bystřice",
+      "edition_year": 2026,
+      "date_from": "2026-09-04",
+      "date_to": "2026-09-06",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.velkabystrice.cz/",
+      "source_url": "https://www.velkabystrice.cz/volny-cas/lidovy-rok-1/rok-2026/pripravujeme-xxxvi-rocnik-festivalu-1212cs.html"
+    },
+    {
+      "id": "cz-karlovarsky-folklorni-festival-karlovy-vary",
+      "name": "Karlovarský folklorní festival",
+      "type": "festival",
+      "genres": [
+        "folk-acoustic",
+        "world"
+      ],
+      "country": "Czech Republic",
+      "city": "Karlovy Vary",
+      "edition_year": 2026,
+      "date_from": "2026-09-02",
+      "date_to": "2026-09-06",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://kffestival.cz/",
+      "source_url": "https://kffestival.cz/en/rocnik/31st-kff-2026/"
+    },
+    {
+      "id": "cz-jazzfestbrno-brno",
+      "name": "JazzFestBrno",
+      "type": "festival",
+      "genres": [
+        "jazz-blues"
+      ],
+      "country": "Czech Republic",
+      "city": "Brno",
+      "edition_year": 2027,
+      "date_from": "2027-01-26",
+      "date_to": null,
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.jazzfestbrno.cz/",
+      "source_url": "https://www.jazzfestbrno.cz/en/programme-2027/"
+    },
+    {
+      "id": "cz-jazz-goes-to-town-hradec-kralove",
+      "name": "Jazz Goes To Town",
+      "type": "festival",
+      "genres": [
+        "jazz-blues",
+        "experimental"
+      ],
+      "country": "Czech Republic",
+      "city": "Hradec Králové",
+      "edition_year": 2026,
+      "date_from": "2026-10-06",
+      "date_to": "2026-10-10",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://jgtt.cz/",
+      "source_url": "https://jgtt.cz/"
+    },
+    {
+      "id": "cz-jazzfest-karlovy-vary-karlovy-vary",
+      "name": "Jazzfest Karlovy Vary",
+      "type": "festival",
+      "genres": [
+        "jazz-blues"
+      ],
+      "country": "Czech Republic",
+      "city": "Karlovy Vary",
+      "edition_year": 2026,
+      "date_from": "2026-09-11",
+      "date_to": "2026-10-17",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.jazzfest.cz/",
+      "source_url": "https://www.jazzfest.cz/2026/"
+    },
+    {
+      "id": "cz-jazzove-lazne-marianske-lazne",
+      "name": "Jazzové lázně",
+      "type": "festival",
+      "genres": [
+        "jazz-blues"
+      ],
+      "country": "Czech Republic",
+      "city": "Mariánské Lázně",
+      "edition_year": 2027,
+      "date_from": "2027-06-25",
+      "date_to": "2027-07-01",
+      "status": "announced",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.marianskelazne.cz/jazzove-lazne/",
+      "source_url": "https://www.marianskelazne.cz/jazzove-lazne/"
+    },
+    {
+      "id": "cz-jazz-xxx-usti-nad-labem",
+      "name": "JAZZ XXX.",
+      "type": "festival",
+      "genres": [
+        "jazz-blues"
+      ],
+      "country": "Czech Republic",
+      "city": "Ústí nad Labem",
+      "edition_year": 2026,
+      "date_from": "2026-11-06",
+      "date_to": "2026-11-07",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.ksul.cz/",
+      "source_url": "https://www.ksul.cz/akce/jazz-xxx-save-the-date/"
+    },
+    {
+      "id": "cz-jazz-open-ostrava-ostrava",
+      "name": "Jazz Open Ostrava",
+      "type": "festival",
+      "genres": [
+        "jazz-blues"
+      ],
+      "country": "Czech Republic",
+      "city": "Ostrava",
+      "edition_year": 2026,
+      "date_from": "2026-06-01",
+      "date_to": "2026-06-30",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://jazzopen.cz/",
+      "source_url": "https://jazzopen.cz/"
+    },
+    {
+      "id": "cz-prague-sounds-prague",
+      "name": "Prague Sounds",
+      "type": "festival",
+      "genres": [
+        "jazz-blues",
+        "classical",
+        "world"
+      ],
+      "country": "Czech Republic",
+      "city": "Prague",
+      "edition_year": 2026,
+      "date_from": "2026-11-02",
+      "date_to": "2026-12-03",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://praguesounds.cz/",
+      "source_url": "https://praguesounds.cz/en/program"
+    },
+    {
+      "id": "cz-prague-spring-prague",
+      "name": "Prague Spring",
+      "type": "festival",
+      "genres": [
+        "classical",
+        "jazz-blues"
+      ],
+      "country": "Czech Republic",
+      "city": "Prague",
+      "edition_year": 2027,
+      "date_from": "2027-05-12",
+      "date_to": "2027-06-02",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://festival.cz/",
+      "source_url": "https://festival.cz/program-prazskeho-jara-2027-zverejnen-82-rocnik-se-ponese-na-kridlech-hudby-ludwiga-van-beethovena/"
+    },
+    {
+      "id": "cz-smetanova-litomysl-litomysl",
+      "name": "Smetanova Litomyšl",
+      "type": "festival",
+      "genres": [
+        "classical"
+      ],
+      "country": "Czech Republic",
+      "city": "Litomyšl",
+      "edition_year": 2027,
+      "date_from": "2027-06-10",
+      "date_to": "2027-07-05",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://smetanovalitomysl.cz/",
+      "source_url": "https://smetanovalitomysl.cz/"
+    },
+    {
+      "id": "cz-dvorakova-praha-prague",
+      "name": "Dvořákova Praha",
+      "type": "festival",
+      "genres": [
+        "classical"
+      ],
+      "country": "Czech Republic",
+      "city": "Prague",
+      "edition_year": 2027,
+      "date_from": "2027-09-06",
+      "date_to": "2027-09-27",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.dvorakovapraha.cz/",
+      "source_url": "https://prague.eu/en/akce/dvorak-prague-festival/"
+    },
+    {
+      "id": "cz-hudebni-festival-znojmo-znojmo",
+      "name": "Hudební festival Znojmo",
+      "type": "festival",
+      "genres": [
+        "classical",
+        "jazz-blues",
+        "folk-acoustic"
+      ],
+      "country": "Czech Republic",
+      "city": "Znojmo",
+      "edition_year": 2027,
+      "date_from": "2027-07-08",
+      "date_to": "2027-07-25",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.hudbaznojmo.cz/",
+      "source_url": "https://www.hudbaznojmo.cz/"
+    },
+    {
+      "id": "cz-lipa-musica-ceska-lipa",
+      "name": "Lípa Musica",
+      "type": "festival",
+      "genres": [
+        "classical",
+        "multi-genre"
+      ],
+      "country": "Czech Republic",
+      "city": "Česká Lípa",
+      "edition_year": 2027,
+      "date_from": "2027-09-10",
+      "date_to": "2027-10-30",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.lipamusica.cz/",
+      "source_url": "https://www.lipamusica.cz/"
+    },
+    {
+      "id": "cz-concentus-moraviae-brno",
+      "name": "Concentus Moraviae",
+      "type": "festival",
+      "genres": [
+        "classical"
+      ],
+      "country": "Czech Republic",
+      "city": "Brno",
+      "edition_year": 2026,
+      "date_from": "2026-04-28",
+      "date_to": "2026-06-25",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://concentus-moraviae.cz/",
+      "source_url": "https://concentus-moraviae.cz/program-2026/"
+    },
+    {
+      "id": "cz-svatovaclavsky-hudebni-festival-ostrava",
+      "name": "Svatováclavský hudební festival",
+      "type": "festival",
+      "genres": [
+        "classical",
+        "jazz-blues",
+        "folk-acoustic"
+      ],
+      "country": "Czech Republic",
+      "city": "Ostrava",
+      "edition_year": 2026,
+      "date_from": "2026-09-02",
+      "date_to": "2026-09-28",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://shf.cz/",
+      "source_url": "https://shf.cz/program/"
+    },
+    {
+      "id": "cz-festival-krumlov-cesky-krumlov",
+      "name": "Festival Krumlov",
+      "type": "festival",
+      "genres": [
+        "classical",
+        "world"
+      ],
+      "country": "Czech Republic",
+      "city": "Český Krumlov",
+      "edition_year": 2026,
+      "date_from": "2026-07-17",
+      "date_to": "2026-08-08",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.festivalkrumlov.cz/",
+      "source_url": "https://www.festivalkrumlov.cz/en/program-en/"
+    },
+    {
+      "id": "cz-festival-baroknich-umeni-cesky-krumlov",
+      "name": "Festival barokních umění",
+      "type": "festival",
+      "genres": [
+        "classical"
+      ],
+      "country": "Czech Republic",
+      "city": "Český Krumlov",
+      "edition_year": 2026,
+      "date_from": "2026-09-18",
+      "date_to": "2026-09-20",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": null,
+      "source_url": "https://www.kudyznudy.cz/aktuality/tradice-klasika-hudebni-slavnosti-a-festivaly-star"
+    },
+    {
+      "id": "cz-festival-baroko-olomouc",
+      "name": "Festival Baroko",
+      "type": "festival",
+      "genres": [
+        "classical"
+      ],
+      "country": "Czech Republic",
+      "city": "Olomouc",
+      "edition_year": 2026,
+      "date_from": "2026-06-01",
+      "date_to": "2026-06-17",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://festivalbaroko.cz/",
+      "source_url": "https://festivalbaroko.cz/2026/"
+    },
+    {
+      "id": "cz-letni-slavnosti-stare-hudby-prague",
+      "name": "Letní slavnosti staré hudby",
+      "type": "festival",
+      "genres": [
+        "classical"
+      ],
+      "country": "Czech Republic",
+      "city": "Prague",
+      "edition_year": 2026,
+      "date_from": "2026-07-16",
+      "date_to": "2026-08-05",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://letnislavnosti.cz/",
+      "source_url": "https://letnislavnosti.cz/program/2026/"
+    },
+    {
+      "id": "cz-janacek-brno-brno",
+      "name": "Janáček Brno",
+      "type": "festival",
+      "genres": [
+        "classical"
+      ],
+      "country": "Czech Republic",
+      "city": "Brno",
+      "edition_year": 2026,
+      "date_from": "2026-10-13",
+      "date_to": "2026-11-17",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": null,
+      "source_url": "https://www.visitczechia.com/en-us/news/2026/01/n-top-czech-cultural-events"
+    },
+    {
+      "id": "cz-mahler-jihlava-jihlava",
+      "name": "Mahler Jihlava",
+      "type": "festival",
+      "genres": [
+        "classical"
+      ],
+      "country": "Czech Republic",
+      "city": "Jihlava",
+      "edition_year": 2026,
+      "date_from": "2026-05-10",
+      "date_to": "2026-06-01",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.mahlerfestival.cz/",
+      "source_url": "https://www.mahlerfestival.cz/en/programmes-all/program-2026/"
+    },
+    {
+      "id": "cz-mezinarodni-hudebni-festival-leose-janacka-ostrava",
+      "name": "Mezinárodní hudební festival Leoše Janáčka",
+      "type": "festival",
+      "genres": [
+        "classical",
+        "jazz-blues"
+      ],
+      "country": "Czech Republic",
+      "city": "Ostrava",
+      "edition_year": 2026,
+      "date_from": "2026-06-01",
+      "date_to": "2026-07-03",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.mhflj.cz/",
+      "source_url": "https://www.mhflj.cz/en/program/"
+    },
+    {
+      "id": "cz-mezinarodni-hudebni-festival-kutna-hora-kutna-hora",
+      "name": "Mezinárodní hudební festival Kutná Hora",
+      "type": "festival",
+      "genres": [
+        "classical"
+      ],
+      "country": "Czech Republic",
+      "city": "Kutná Hora",
+      "edition_year": 2026,
+      "date_from": "2026-06-05",
+      "date_to": "2026-06-14",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": null,
+      "source_url": "https://www.kudyznudy.cz/aktuality/tradice-klasika-hudebni-slavnosti-a-festivaly-star"
+    },
+    {
+      "id": "cz-smetanovske-dny-plzen",
+      "name": "Smetanovské dny",
+      "type": "festival",
+      "genres": [
+        "classical"
+      ],
+      "country": "Czech Republic",
+      "city": "Plzeň",
+      "edition_year": 2026,
+      "date_from": "2026-02-06",
+      "date_to": "2026-04-09",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": null,
+      "source_url": "https://www.kudyznudy.cz/aktuality/tradice-klasika-hudebni-slavnosti-a-festivaly-star"
+    },
+    {
+      "id": "cz-struny-detem-prague",
+      "name": "Struny dětem",
+      "type": "festival",
+      "genres": [
+        "multi-genre"
+      ],
+      "country": "Czech Republic",
+      "city": "Prague",
+      "edition_year": 2026,
+      "date_from": "2026-03-27",
+      "date_to": "2026-03-29",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.strunydetem.cz/",
+      "source_url": "https://www.nrpraha.cz/program/1533/struny-detem-2026/"
+    },
+    {
+      "id": "sk-pohoda-trencin",
+      "name": "Pohoda",
+      "type": "festival",
+      "genres": [
+        "multi-genre",
+        "indie-alternative",
+        "electronic"
+      ],
+      "country": "Slovakia",
+      "city": "Trenčín",
+      "edition_year": 2027,
+      "date_from": "2027-07-08",
+      "date_to": "2027-07-10",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.pohodafestival.sk/",
+      "source_url": "https://www.pohodafestival.sk/en/news/15-000-tickets-already-gone"
+    },
+    {
+      "id": "sk-grape-festival-trencin",
+      "name": "Grape Festival",
+      "type": "festival",
+      "genres": [
+        "multi-genre",
+        "indie-alternative",
+        "electronic"
+      ],
+      "country": "Slovakia",
+      "city": "Trenčín",
+      "edition_year": 2027,
+      "date_from": "2027-08-13",
+      "date_to": "2027-08-14",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.grapefestival.sk/",
+      "source_url": "https://grapefestival.sk/en"
+    },
+    {
+      "id": "sk-uprising-festival-bratislava",
+      "name": "Uprising Festival",
+      "type": "festival",
+      "genres": [
+        "reggae-ska",
+        "hip-hop",
+        "electronic"
+      ],
+      "country": "Slovakia",
+      "city": "Bratislava",
+      "edition_year": 2027,
+      "date_from": "2027-08-27",
+      "date_to": "2027-08-28",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.uprising.sk/",
+      "source_url": "https://www.uprising.sk/en/"
+    },
+    {
+      "id": "sk-lovestream-festival-bratislava",
+      "name": "LOVESTREAM Festival",
+      "type": "festival",
+      "genres": [
+        "pop",
+        "electronic",
+        "hip-hop"
+      ],
+      "country": "Slovakia",
+      "city": "Bratislava",
+      "edition_year": 2027,
+      "date_from": null,
+      "date_to": null,
+      "status": "announced",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://lovestream.sk/",
+      "source_url": "https://www.startitup.sk/lovestream-hlasi-navrat-v-roku-2027-listky-su-uz-v-predaji-vieme-kolko-zaplatis/"
+    },
+    {
+      "id": "sk-paradise-zilina",
+      "name": "Paradise",
+      "type": "festival",
+      "genres": [
+        "electronic",
+        "techno-house"
+      ],
+      "country": "Slovakia",
+      "city": "Žilina",
+      "edition_year": 2027,
+      "date_from": "2027-07-29",
+      "date_to": "2027-07-31",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://paradiseopenair.sk/",
+      "source_url": "https://vstupenky.paradisefestival.sk/festival/paradise-2027"
+    },
+    {
+      "id": "sk-rock-pod-kamenom-bela-nad-cirochou",
+      "name": "Rock pod Kameňom",
+      "type": "festival",
+      "genres": [
+        "rock",
+        "metal"
+      ],
+      "country": "Slovakia",
+      "city": "Belá nad Cirochou",
+      "edition_year": 2026,
+      "date_from": "2026-06-25",
+      "date_to": "2026-06-27",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.rockpodkamenom.sk/",
+      "source_url": "https://www.teraz.sk/slovensko/rock-pod-kamenom-sa-zacina-vo-stvrto/973253-clanok.html"
+    },
+    {
+      "id": "sk-hip-hop-zije-bratislava",
+      "name": "Hip Hop Žije",
+      "type": "festival",
+      "genres": [
+        "hip-hop"
+      ],
+      "country": "Slovakia",
+      "city": "Bratislava",
+      "edition_year": 2027,
+      "date_from": "2027-06-25",
+      "date_to": "2027-06-26",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://hiphopzije.sk/",
+      "source_url": "https://hiphopzije.sk/lineup/neries"
+    },
+    {
+      "id": "sk-hip-hop-zije-valca",
+      "name": "Hip Hop Žije",
+      "type": "festival",
+      "genres": [
+        "hip-hop"
+      ],
+      "country": "Slovakia",
+      "city": "Valča",
+      "edition_year": 2026,
+      "date_from": "2026-05-23",
+      "date_to": "2026-05-23",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://hiphopzije.sk/",
+      "source_url": "https://hiphopzije.sk/tour/valca-2026"
+    },
+    {
+      "id": "sk-hip-hop-zije-nove-mesto-nad-vahom",
+      "name": "Hip Hop Žije",
+      "type": "festival",
+      "genres": [
+        "hip-hop"
+      ],
+      "country": "Slovakia",
+      "city": "Nové Mesto nad Váhom",
+      "edition_year": 2026,
+      "date_from": "2026-07-17",
+      "date_to": "2026-07-18",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://hiphopzije.sk/",
+      "source_url": "https://hiphopzije.sk/tour/zelena-voda-2026"
+    },
+    {
+      "id": "sk-hip-hop-zije-presov",
+      "name": "Hip Hop Žije",
+      "type": "festival",
+      "genres": [
+        "hip-hop"
+      ],
+      "country": "Slovakia",
+      "city": "Prešov",
+      "edition_year": 2026,
+      "date_from": "2026-07-31",
+      "date_to": "2026-08-01",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://hiphopzije.sk/",
+      "source_url": "https://hiphopzije.sk/"
+    },
+    {
+      "id": "sk-hip-hop-zije-prasice",
+      "name": "Hip Hop Žije",
+      "type": "festival",
+      "genres": [
+        "hip-hop"
+      ],
+      "country": "Slovakia",
+      "city": "Prašice",
+      "edition_year": 2026,
+      "date_from": "2026-08-21",
+      "date_to": "2026-08-22",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://hiphopzije.sk/",
+      "source_url": "https://hiphopzije.sk/"
+    },
+    {
+      "id": "sk-hip-hop-zije-winter-edition-nitra",
+      "name": "Hip Hop Žije Winter Edition",
+      "type": "festival",
+      "genres": [
+        "hip-hop"
+      ],
+      "country": "Slovakia",
+      "city": "Nitra",
+      "edition_year": 2026,
+      "date_from": "2026-12-11",
+      "date_to": "2026-12-11",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://hiphopzije.sk/",
+      "source_url": "https://hiphopzije.sk/"
+    },
+    {
+      "id": "sk-sharpe-bratislava",
+      "name": "SHARPE",
+      "type": "showcase",
+      "genres": [
+        "indie-alternative",
+        "experimental",
+        "electronic"
+      ],
+      "country": "Slovakia",
+      "city": "Bratislava",
+      "edition_year": 2027,
+      "date_from": "2027-04-23",
+      "date_to": "2027-04-24",
+      "status": "confirmed",
+      "open_call": true,
+      "open_call_url": "https://sharpe.sk/artist-application/",
+      "website": "https://sharpe.sk/",
+      "source_url": "https://sharpe.sk/info/faq/"
+    },
+    {
+      "id": "sk-garaz-festival-trencin",
+      "name": "Garáž Festival",
+      "type": "showcase",
+      "genres": [
+        "indie-alternative",
+        "rock",
+        "electronic"
+      ],
+      "country": "Slovakia",
+      "city": "Trenčín",
+      "edition_year": 2026,
+      "date_from": "2026-07-03",
+      "date_to": "2026-07-05",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": null,
+      "source_url": "https://www.trencin2026.eu/en/it-starts-in-the-garage/"
+    },
+    {
+      "id": "sk-world-music-festival-bratislava-bratislava",
+      "name": "World Music Festival Bratislava",
+      "type": "festival",
+      "genres": [
+        "world",
+        "folk-acoustic",
+        "jazz-blues"
+      ],
+      "country": "Slovakia",
+      "city": "Bratislava",
+      "edition_year": 2026,
+      "date_from": "2026-09-17",
+      "date_to": "2026-09-20",
+      "status": "confirmed",
+      "open_call": true,
+      "open_call_url": "https://www.worldmusicfestival.sk/en/home/",
+      "website": "https://www.worldmusicfestival.sk/",
+      "source_url": "https://www.gregi.net/clanky/world-music-festival-bratislava-otvara-naruc-novym-kapelam/"
+    },
+    {
+      "id": "sk-kvantum-podhradie",
+      "name": "KVANTUM",
+      "type": "festival",
+      "genres": [
+        "multi-genre",
+        "experimental"
+      ],
+      "country": "Slovakia",
+      "city": "Podhradie",
+      "edition_year": 2027,
+      "date_from": "2027-06-18",
+      "date_to": "2027-06-20",
+      "status": "confirmed",
+      "open_call": true,
+      "open_call_url": "https://www.nastupiste.sk/open-call-2027-vyzva-na-projekty/",
+      "website": "https://www.nastupiste.sk/",
+      "source_url": "https://www.nastupiste.sk/open-call-2027-vyzva-na-projekty/"
+    },
+    {
+      "id": "sk-bratislavske-jazzove-dni-bratislava",
+      "name": "Bratislavské jazzové dni",
+      "type": "festival",
+      "genres": [
+        "jazz-blues"
+      ],
+      "country": "Slovakia",
+      "city": "Bratislava",
+      "edition_year": 2026,
+      "date_from": "2026-10-23",
+      "date_to": "2026-10-25",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.bjd.sk/",
+      "source_url": "https://www.bjd.sk/rocnik/2026"
+    },
+    {
+      "id": "sk-next-festival-bratislava",
+      "name": "NEXT Festival",
+      "type": "festival",
+      "genres": [
+        "experimental",
+        "electronic"
+      ],
+      "country": "Slovakia",
+      "city": "Bratislava",
+      "edition_year": 2026,
+      "date_from": "2026-11-25",
+      "date_to": "2026-11-29",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://nextfestival.sk/",
+      "source_url": "https://nextfestival.sk/2026/"
+    },
+    {
+      "id": "sk-wilsonic-bratislava",
+      "name": "Wilsonic",
+      "type": "festival",
+      "genres": [
+        "electronic",
+        "techno-house",
+        "experimental"
+      ],
+      "country": "Slovakia",
+      "city": "Bratislava",
+      "edition_year": 2026,
+      "date_from": "2026-08-06",
+      "date_to": "2026-08-08",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.wilsonic.sk/",
+      "source_url": "https://inclueve.com/events/wilsonic-festival-2026-2026-08-07"
+    },
+    {
+      "id": "sk-danube-music-days-bratislava",
+      "name": "Danube Music Days",
+      "type": "festival",
+      "genres": [
+        "electronic"
+      ],
+      "country": "Slovakia",
+      "city": "Bratislava",
+      "edition_year": 2026,
+      "date_from": "2026-06-26",
+      "date_to": "2026-06-27",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": null,
+      "source_url": "https://www.visitbratislava.com/events/danube-music-days-2026/"
+    },
+    {
+      "id": "sk-radost-factory-bratislava",
+      "name": "Radosť Factory",
+      "type": "one-off",
+      "genres": [
+        "techno-house"
+      ],
+      "country": "Slovakia",
+      "city": "Bratislava",
+      "edition_year": 2026,
+      "date_from": "2026-06-20",
+      "date_to": "2026-06-20",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": null,
+      "source_url": "https://techno-univers.com/en/blogs/location/festival-techno-slovaquie"
+    },
+    {
+      "id": "sk-bassizm-festival-winter-edition-bratislava",
+      "name": "Bassizm Festival Winter Edition",
+      "type": "festival",
+      "genres": [
+        "electronic"
+      ],
+      "country": "Slovakia",
+      "city": "Bratislava",
+      "edition_year": 2026,
+      "date_from": "2026-11-07",
+      "date_to": "2026-11-07",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.bassizm.sk/",
+      "source_url": "https://www.bassizm.sk/"
+    },
+    {
+      "id": "sk-echoterra-stupava",
+      "name": "Echoterra",
+      "type": "festival",
+      "genres": [
+        "electronic",
+        "experimental",
+        "techno-house"
+      ],
+      "country": "Slovakia",
+      "city": "Stupava",
+      "edition_year": 2026,
+      "date_from": "2026-07-17",
+      "date_to": "2026-07-19",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": null,
+      "source_url": "https://festivaly.eu/sk/echoterra-2026"
+    },
+    {
+      "id": "sk-hradby-samoty-moravany-nad-vahom",
+      "name": "Hradby Samoty",
+      "type": "festival",
+      "genres": [
+        "experimental",
+        "electronic",
+        "rock"
+      ],
+      "country": "Slovakia",
+      "city": "Moravany nad Váhom",
+      "edition_year": 2026,
+      "date_from": "2026-08-21",
+      "date_to": "2026-08-22",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.hradbysamoty.org/",
+      "source_url": "https://www.hradbysamoty.org/sk/node/871"
+    },
+    {
+      "id": "sk-hradby-samoty-bratislava-intermezzo-bratislava",
+      "name": "Hradby Samoty – Bratislava Intermezzo",
+      "type": "festival",
+      "genres": [
+        "experimental",
+        "electronic",
+        "rock"
+      ],
+      "country": "Slovakia",
+      "city": "Bratislava",
+      "edition_year": 2026,
+      "date_from": "2026-10-30",
+      "date_to": "2026-10-31",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.hradbysamoty.org/",
+      "source_url": "https://www.hradbysamoty.org/en/blog/hradby-samoty-bratislava-intermezzo-2026"
+    },
+    {
+      "id": "sk-dropeak-festival-piestany",
+      "name": "Dropeak Festival",
+      "type": "festival",
+      "genres": [
+        "indie-alternative",
+        "hip-hop",
+        "electronic"
+      ],
+      "country": "Slovakia",
+      "city": "Piešťany",
+      "edition_year": 2026,
+      "date_from": "2026-06-27",
+      "date_to": "2026-06-27",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": null,
+      "source_url": "https://festivaly.eu/dropeak-festival-2026"
+    },
+    {
+      "id": "sk-vibe-festival-michalovce",
+      "name": "Vibe Festival",
+      "type": "festival",
+      "genres": [
+        "hip-hop",
+        "electronic"
+      ],
+      "country": "Slovakia",
+      "city": "Michalovce",
+      "edition_year": 2025,
+      "date_from": "2025-07-11",
+      "date_to": "2025-07-12",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": null,
+      "source_url": "https://domalenka.sk/blog/festivaly-na-slovensku"
+    },
+    {
+      "id": "sk-big-summer-fest-nove-mesto-nad-vahom",
+      "name": "Big Summer Fest",
+      "type": "festival",
+      "genres": [
+        "rock",
+        "pop",
+        "multi-genre"
+      ],
+      "country": "Slovakia",
+      "city": "Nové Mesto nad Váhom",
+      "edition_year": 2026,
+      "date_from": "2026-07-30",
+      "date_to": "2026-08-01",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": null,
+      "source_url": "https://brainee.hnonline.sk/notsorry/news/kultura/hudba/96282435-prehlad-letnych-festivalov-gorillaz-v-trencine-black-eyed-peas-v-belej-nad-cirochou-a-david-guetta-v-bratislave"
+    },
+    {
+      "id": "sk-dvor-zazrakov-zilina",
+      "name": "Dvor Zázrakov",
+      "type": "festival",
+      "genres": [
+        "pop",
+        "multi-genre"
+      ],
+      "country": "Slovakia",
+      "city": "Žilina",
+      "edition_year": 2026,
+      "date_from": "2026-07-11",
+      "date_to": "2026-07-12",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": null,
+      "source_url": "https://festivaly.eu/en/dvor-zazrakov-2026"
+    },
+    {
+      "id": "sk-power-of-joy-fest-orechova-poton",
+      "name": "Power of Joy Fest",
+      "type": "festival",
+      "genres": [
+        "pop",
+        "rock"
+      ],
+      "country": "Slovakia",
+      "city": "Orechová Potôň",
+      "edition_year": 2026,
+      "date_from": "2026-06-13",
+      "date_to": "2026-06-13",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": null,
+      "source_url": "https://festivaly.eu/en/power-of-joy-fest-2026"
+    },
+    {
+      "id": "sk-tuzina-gro-o-ve-tuzina",
+      "name": "Tužina Gro(o)ve",
+      "type": "festival",
+      "genres": [
+        "rock",
+        "hip-hop",
+        "indie-alternative"
+      ],
+      "country": "Slovakia",
+      "city": "Tužina",
+      "edition_year": 2027,
+      "date_from": "2027-07-23",
+      "date_to": "2027-07-24",
+      "status": "announced",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.tuzinagroove.sk/",
+      "source_url": "https://www.tuzinagroove.sk/"
+    },
+    {
+      "id": "sk-zakovic-open-trencianske-bohuslavice",
+      "name": "Žákovic Open",
+      "type": "festival",
+      "genres": [
+        "rock",
+        "punk-hardcore",
+        "hip-hop"
+      ],
+      "country": "Slovakia",
+      "city": "Trenčianske Bohuslavice",
+      "edition_year": 2026,
+      "date_from": "2026-07-24",
+      "date_to": "2026-07-25",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "http://www.zakovicopen.com/",
+      "source_url": "https://www.ticketlive.sk/sk/event/zakovic-open-2026"
+    },
+    {
+      "id": "sk-cibula-fest-holic",
+      "name": "Cibula Fest",
+      "type": "festival",
+      "genres": [
+        "rock",
+        "pop"
+      ],
+      "country": "Slovakia",
+      "city": "Holíč",
+      "edition_year": 2026,
+      "date_from": "2026-07-23",
+      "date_to": "2026-07-25",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://cibulafest.eu/",
+      "source_url": "https://cibulafest.eu/program/"
+    },
+    {
+      "id": "sk-campana-fest-nitra",
+      "name": "CAMPANA Fest",
+      "type": "festival",
+      "genres": [
+        "rock",
+        "hip-hop",
+        "indie-alternative"
+      ],
+      "country": "Slovakia",
+      "city": "Nitra",
+      "edition_year": 2026,
+      "date_from": "2026-09-11",
+      "date_to": "2026-09-13",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://campanafest.sk/",
+      "source_url": "https://nitra.sk/campanafest2026/"
+    },
+    {
+      "id": "sk-vrbovske-vetry-vrbove",
+      "name": "Vrbovské Vetry",
+      "type": "festival",
+      "genres": [
+        "rock",
+        "punk-hardcore",
+        "multi-genre"
+      ],
+      "country": "Slovakia",
+      "city": "Vrbové",
+      "edition_year": 2026,
+      "date_from": "2026-07-04",
+      "date_to": "2026-07-04",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://vrbovskevetry.sk/",
+      "source_url": "https://vrbovskevetry.sk/2026/05/29/vrbovske-vetry-04-jula-2026-2/"
+    },
+    {
+      "id": "sk-baris-rock-fest-nove-mesto-nad-vahom",
+      "name": "Baris Rock Fest",
+      "type": "festival",
+      "genres": [
+        "rock",
+        "metal"
+      ],
+      "country": "Slovakia",
+      "city": "Nové Mesto nad Váhom",
+      "edition_year": 2026,
+      "date_from": "2026-06-26",
+      "date_to": "2026-06-27",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": null,
+      "source_url": "https://festivaly.eu/hudba/slovensko?tag=ska"
+    },
+    {
+      "id": "sk-rock-park-fesztival-gabcikovo",
+      "name": "Rock Park Fesztivál",
+      "type": "festival",
+      "genres": [
+        "rock",
+        "metal"
+      ],
+      "country": "Slovakia",
+      "city": "Gabčíkovo",
+      "edition_year": 2026,
+      "date_from": "2026-07-24",
+      "date_to": "2026-07-25",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": null,
+      "source_url": "https://oneticket.sk/events/2-rock-park-fesztival?locale=en"
+    },
+    {
+      "id": "sk-punkaci-detom-opatovce",
+      "name": "Punkáči deťom",
+      "type": "festival",
+      "genres": [
+        "punk-hardcore",
+        "metal"
+      ],
+      "country": "Slovakia",
+      "city": "Opatovce",
+      "edition_year": 2026,
+      "date_from": "2026-08-27",
+      "date_to": "2026-08-29",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://punkacidetom.sk/",
+      "source_url": "https://punkacidetom.sk/program/"
+    },
+    {
+      "id": "sk-slizovica-nitra",
+      "name": "Slížovica",
+      "type": "festival",
+      "genres": [
+        "rock",
+        "punk-hardcore",
+        "metal"
+      ],
+      "country": "Slovakia",
+      "city": "Nitra",
+      "edition_year": 2026,
+      "date_from": "2026-08-28",
+      "date_to": "2026-08-28",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.slizovica.com/",
+      "source_url": "https://www.slizovica.com/"
+    },
+    {
+      "id": "sk-gothoom-open-air-fest-revistske-podzamcie",
+      "name": "Gothoom Open Air Fest",
+      "type": "festival",
+      "genres": [
+        "metal"
+      ],
+      "country": "Slovakia",
+      "city": "Revištské Podzámčie",
+      "edition_year": 2027,
+      "date_from": "2027-07-22",
+      "date_to": "2027-07-24",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.gothoom.com/",
+      "source_url": "https://kvlt.pl/newsy/pierwsze-szczegoly-gothoom-open-air-fest-2027/"
+    },
+    {
+      "id": "sk-blasphemy-openair-rajecke-teplice",
+      "name": "Blasphemy Openair",
+      "type": "festival",
+      "genres": [
+        "metal"
+      ],
+      "country": "Slovakia",
+      "city": "Rajecké Teplice",
+      "edition_year": 2027,
+      "date_from": "2027-08-13",
+      "date_to": "2027-08-14",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://blasphemy.sk/",
+      "source_url": "https://blasphemy.sk/"
+    },
+    {
+      "id": "sk-festival-skaly-porubka",
+      "name": "Festival SKALY",
+      "type": "festival",
+      "genres": [
+        "rock",
+        "metal"
+      ],
+      "country": "Slovakia",
+      "city": "Porúbka",
+      "edition_year": 2027,
+      "date_from": "2027-08-20",
+      "date_to": "2027-08-21",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://festivalskaly.sk/",
+      "source_url": "https://festivalskaly.sk/"
+    },
+    {
+      "id": "sk-angelus-fest-banska-bystrica",
+      "name": "Angelus Fest",
+      "type": "festival",
+      "genres": [
+        "rock",
+        "metal"
+      ],
+      "country": "Slovakia",
+      "city": "Banská Bystrica",
+      "edition_year": 2027,
+      "date_from": "2027-10-16",
+      "date_to": "2027-10-16",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": null,
+      "source_url": "https://hapsy.co/uk/e/angelus-fest-2027"
+    },
+    {
+      "id": "sk-morena-metal-fest-banska-bystrica",
+      "name": "Morena Metal Fest",
+      "type": "festival",
+      "genres": [
+        "metal"
+      ],
+      "country": "Slovakia",
+      "city": "Banská Bystrica",
+      "edition_year": 2027,
+      "date_from": "2027-03-13",
+      "date_to": "2027-03-13",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": null,
+      "source_url": "https://hapsy.co/e/morena-metal-fest-2"
+    },
+    {
+      "id": "sk-rubicon-festival-bratislava",
+      "name": "Rubicon Festival",
+      "type": "festival",
+      "genres": [
+        "hip-hop",
+        "electronic"
+      ],
+      "country": "Slovakia",
+      "city": "Bratislava",
+      "edition_year": 2025,
+      "date_from": "2025-07-18",
+      "date_to": "2025-07-20",
+      "status": "cancelled",
+      "open_call": false,
+      "open_call_url": null,
+      "website": null,
+      "source_url": "https://zahorskabystrica.sk/rubicon-festival-v-zahorskej-bystrici-nebude/"
+    },
+    {
+      "id": "sk-atmosfera-hontianske-nemce",
+      "name": "Atmosféra",
+      "type": "festival",
+      "genres": [
+        "indie-alternative",
+        "multi-genre",
+        "world"
+      ],
+      "country": "Slovakia",
+      "city": "Hontianske Nemce",
+      "edition_year": 2026,
+      "date_from": null,
+      "date_to": null,
+      "status": "cancelled",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://festivalatmosfera.sk/",
+      "source_url": "https://festivalatmosfera.sk/"
+    },
+    {
+      "id": "sk-dobry-festival-presov",
+      "name": "Dobrý festival",
+      "type": "festival",
+      "genres": [
+        "rock",
+        "hip-hop"
+      ],
+      "country": "Slovakia",
+      "city": "Prešov",
+      "edition_year": 2026,
+      "date_from": null,
+      "date_to": null,
+      "status": "cancelled",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://dobryfestival.sk/",
+      "source_url": "https://www.presovak.sk/clanky/12036/presovska-delna-bude-tento-rok-bez-velkych-festivalov-dva-z-nich-ohlasili-pauzu-na-dobu-neurcitu"
+    },
+    {
+      "id": "sk-gombaszogi-nyari-tabor-slavec",
+      "name": "Gombaszögi Nyári Tábor",
+      "type": "festival",
+      "genres": [
+        "multi-genre",
+        "folk-acoustic",
+        "world"
+      ],
+      "country": "Slovakia",
+      "city": "Slavec",
+      "edition_year": 2026,
+      "date_from": "2026-07-14",
+      "date_to": "2026-07-19",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "http://www.gombaszog.sk/",
+      "source_url": "https://www.kosickazupa.sk/smart-region/aktuality/julove-festivaly-v-kosickom-kraji-spoja-historiu-adrenalin-a-multikulturnu-energiu-a22-16050"
+    },
+    {
+      "id": "sk-tanecno-namestovo",
+      "name": "Tanečno",
+      "type": "festival",
+      "genres": [
+        "multi-genre",
+        "world"
+      ],
+      "country": "Slovakia",
+      "city": "Námestovo",
+      "edition_year": 2026,
+      "date_from": "2026-08-12",
+      "date_to": "2026-08-16",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.tanecno.sk/",
+      "source_url": "https://www.tanecno.sk/harmonogram/"
+    },
+    {
+      "id": "sk-dobrofest-trnava",
+      "name": "Dobrofest",
+      "type": "festival",
+      "genres": [
+        "folk-acoustic",
+        "jazz-blues"
+      ],
+      "country": "Slovakia",
+      "city": "Trnava",
+      "edition_year": 2026,
+      "date_from": "2026-08-19",
+      "date_to": "2026-08-21",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": null,
+      "source_url": "https://www.trnava.sk/podujatia/15986/dobrofest-2026"
+    },
+    {
+      "id": "sk-folk-blues-session-livin-blues-bratislava",
+      "name": "Folk Blues Session & Livin' Blues",
+      "type": "festival",
+      "genres": [
+        "jazz-blues",
+        "folk-acoustic"
+      ],
+      "country": "Slovakia",
+      "city": "Bratislava",
+      "edition_year": 2026,
+      "date_from": "2026-10-16",
+      "date_to": "2026-10-17",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.kzp.sk/",
+      "source_url": "https://www.bkis.sk/en/event/folk-blues-session-2026-first-day/6a9e670fc5017f0b2521ccff/53431/"
+    },
+    {
+      "id": "sk-jazz-blues-jamboree-nove-zamky",
+      "name": "Jazz Blues Jamboree",
+      "type": "festival",
+      "genres": [
+        "jazz-blues"
+      ],
+      "country": "Slovakia",
+      "city": "Nové Zámky",
+      "edition_year": 2026,
+      "date_from": "2026-10-16",
+      "date_to": "2026-10-17",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": null,
+      "source_url": "https://www.slovakblues.sk/new_web/data/_uploaded/image/jbj_26_ts.pdf"
+    },
+    {
+      "id": "sk-country-sunava-sunava",
+      "name": "Country Šuňava",
+      "type": "festival",
+      "genres": [
+        "folk-acoustic"
+      ],
+      "country": "Slovakia",
+      "city": "Šuňava",
+      "edition_year": 2026,
+      "date_from": "2026-08-14",
+      "date_to": "2026-08-16",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": null,
+      "source_url": "https://www.sunava.sk/volny-cas/kalendar-akcii/country-sunava-661_149sk.html"
+    },
+    {
+      "id": "sk-country-lodenica-nove-mesto-nad-vahom",
+      "name": "Country Lodenica",
+      "type": "festival",
+      "genres": [
+        "folk-acoustic"
+      ],
+      "country": "Slovakia",
+      "city": "Nové Mesto nad Váhom",
+      "edition_year": 2026,
+      "date_from": "2026-08-20",
+      "date_to": "2026-08-22",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.lodenica.sk/",
+      "source_url": "https://www.lodenica.sk/index.php"
+    },
+    {
+      "id": "sk-spangrassfest-spania-dolina",
+      "name": "ŠpanGrassFest",
+      "type": "festival",
+      "genres": [
+        "folk-acoustic"
+      ],
+      "country": "Slovakia",
+      "city": "Špania Dolina",
+      "edition_year": 2026,
+      "date_from": "2026-06-06",
+      "date_to": "2026-06-06",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": null,
+      "source_url": "https://www.spaniadolina.sk/podujatia/kalendar-akcii/spangrassfest-10rocnik-265_265sk.html"
+    },
+    {
+      "id": "sk-bluegrass-vecer-fest-horna-poruba",
+      "name": "Bluegrass Večer Fest",
+      "type": "festival",
+      "genres": [
+        "folk-acoustic"
+      ],
+      "country": "Slovakia",
+      "city": "Horná Poruba",
+      "edition_year": 2026,
+      "date_from": "2026-06-26",
+      "date_to": "2026-06-27",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://bluegrass-vecer.akusticka.sk/",
+      "source_url": "https://bluegrass-vecer.akusticka.sk/"
+    },
+    {
+      "id": "sk-bgspich-zahura-fest-spisske-vlachy",
+      "name": "BGspich Zahura fest",
+      "type": "festival",
+      "genres": [
+        "folk-acoustic"
+      ],
+      "country": "Slovakia",
+      "city": "Spišské Vlachy",
+      "edition_year": 2026,
+      "date_from": "2026-08-01",
+      "date_to": "2026-08-01",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.bgspich.sk/",
+      "source_url": "https://www.bgspich.sk/"
+    },
+    {
+      "id": "sk-folklorny-festival-vychodna-vychodna",
+      "name": "Folklórny festival Východná",
+      "type": "festival",
+      "genres": [
+        "folk-acoustic",
+        "world"
+      ],
+      "country": "Slovakia",
+      "city": "Východná",
+      "edition_year": 2026,
+      "date_from": "2026-07-03",
+      "date_to": "2026-07-05",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://festivalvychodna.sk/",
+      "source_url": "https://festivalvychodna.sk/2026/informacie/"
+    },
+    {
+      "id": "sk-rozhybkosti-vychodna",
+      "name": "Rozhybkosti",
+      "type": "festival",
+      "genres": [
+        "folk-acoustic",
+        "world"
+      ],
+      "country": "Slovakia",
+      "city": "Východná",
+      "edition_year": 2026,
+      "date_from": "2026-07-16",
+      "date_to": "2026-07-19",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://rozhybkosti.sk/",
+      "source_url": "https://rozhybkosti.sk/info/"
+    },
+    {
+      "id": "sk-folklorne-slavnosti-pod-polanou-detva",
+      "name": "Folklórne slávnosti pod Poľanou",
+      "type": "festival",
+      "genres": [
+        "folk-acoustic",
+        "world"
+      ],
+      "country": "Slovakia",
+      "city": "Detva",
+      "edition_year": 2026,
+      "date_from": "2026-07-09",
+      "date_to": "2026-07-12",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.festivaldetva.sk/",
+      "source_url": "https://www.festivaldetva.sk/domov-3/"
+    },
+    {
+      "id": "sk-medzinarodny-folklorny-festival-myjava-myjava",
+      "name": "Medzinárodný folklórny festival Myjava",
+      "type": "festival",
+      "genres": [
+        "folk-acoustic",
+        "world"
+      ],
+      "country": "Slovakia",
+      "city": "Myjava",
+      "edition_year": 2026,
+      "date_from": "2026-06-17",
+      "date_to": "2026-06-21",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": null,
+      "source_url": "https://www.myjava.sk/volny-cas/podujatia/medzinarodny-folklorny-festival-myjava-2026-66-rocnik-3740_821sk.html"
+    },
+    {
+      "id": "sk-podrohacske-folklorne-slavnosti-zuberec",
+      "name": "Podroháčske folklórne slávnosti",
+      "type": "festival",
+      "genres": [
+        "folk-acoustic",
+        "world"
+      ],
+      "country": "Slovakia",
+      "city": "Zuberec",
+      "edition_year": 2026,
+      "date_from": "2026-08-05",
+      "date_to": "2026-08-09",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://pfs.zuberec.sk/",
+      "source_url": "https://pfs.zuberec.sk/"
+    },
+    {
+      "id": "sk-narodny-festival-ludoveho-umenia-zeliezovce",
+      "name": "Národný festival ľudového umenia",
+      "type": "festival",
+      "genres": [
+        "folk-acoustic",
+        "world"
+      ],
+      "country": "Slovakia",
+      "city": "Želiezovce",
+      "edition_year": 2026,
+      "date_from": "2026-06-05",
+      "date_to": "2026-06-07",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://onf.sk/",
+      "source_url": "https://onf.sk/en/home/"
+    },
+    {
+      "id": "sk-horehronske-dni-spevu-a-tanca-helpa",
+      "name": "Horehronské dni spevu a tanca",
+      "type": "festival",
+      "genres": [
+        "folk-acoustic",
+        "world"
+      ],
+      "country": "Slovakia",
+      "city": "Heľpa",
+      "edition_year": 2026,
+      "date_from": "2026-06-25",
+      "date_to": "2026-06-28",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.festivalhelpa.sk/",
+      "source_url": "https://www.sosbb.sk/oblasti-cinnosti/tradicna-kultura/horehronske-dni-spevu-a-tanca-v-helpe/hdst-26.html"
+    },
+    {
+      "id": "sk-sarisske-slavnosti-piesni-a-tancov-raslavice",
+      "name": "Šarišské slávnosti piesní a tancov",
+      "type": "festival",
+      "genres": [
+        "folk-acoustic",
+        "world"
+      ],
+      "country": "Slovakia",
+      "city": "Raslavice",
+      "edition_year": 2026,
+      "date_from": "2026-06-19",
+      "date_to": "2026-06-21",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": null,
+      "source_url": "https://www.raslavice.sk/novinka/133771/pozvanka-56-rocnik-sarisskych-slavnosti-piesni-a-tancov-v-raslaviciach"
+    },
+    {
+      "id": "sk-zemplinske-slavnosti-michalovce",
+      "name": "Zemplínske slávnosti",
+      "type": "festival",
+      "genres": [
+        "folk-acoustic",
+        "world"
+      ],
+      "country": "Slovakia",
+      "city": "Michalovce",
+      "edition_year": 2026,
+      "date_from": "2026-06-26",
+      "date_to": "2026-06-28",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": null,
+      "source_url": "https://www.michalovce.sk/sk/podujatie/zemplinske-slavnosti-2"
+    },
+    {
+      "id": "sk-slavnosti-rusinsko-ukrajinskej-kultury-svidnik",
+      "name": "Slávnosti rusínsko-ukrajinskej kultúry",
+      "type": "festival",
+      "genres": [
+        "folk-acoustic",
+        "world"
+      ],
+      "country": "Slovakia",
+      "city": "Svidník",
+      "edition_year": 2026,
+      "date_from": "2026-06-19",
+      "date_to": "2026-06-20",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": null,
+      "source_url": "https://www.svidnik.sk/mid/463799/akcia/72-slavnosti-rusinsko-ukrajinskej-kultury-.html"
+    },
+    {
+      "id": "sk-hontianska-parada-hrusov",
+      "name": "Hontianska Paráda",
+      "type": "festival",
+      "genres": [
+        "folk-acoustic",
+        "world"
+      ],
+      "country": "Slovakia",
+      "city": "Hrušov",
+      "edition_year": 2026,
+      "date_from": "2026-08-21",
+      "date_to": "2026-08-22",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://hontianska-parada.sk/",
+      "source_url": "https://www.teraz.sk/regiony/v-hrusove-sa-zacina-letny-folklorny/986489-clanok.html"
+    },
+    {
+      "id": "sk-koliesko-kokava-nad-rimavicou",
+      "name": "Koliesko",
+      "type": "festival",
+      "genres": [
+        "folk-acoustic",
+        "world"
+      ],
+      "country": "Slovakia",
+      "city": "Kokava nad Rimavicou",
+      "edition_year": 2026,
+      "date_from": "2026-07-31",
+      "date_to": "2026-08-02",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": null,
+      "source_url": "https://www.teraz.sk/regiony/v-kokave-nad-rimavicou-sa-v-piatok-zac/981816-clanok.html"
+    },
+    {
+      "id": "sk-turcianske-slavnosti-folkloru-martin",
+      "name": "Turčianske slávnosti folklóru",
+      "type": "festival",
+      "genres": [
+        "folk-acoustic",
+        "world"
+      ],
+      "country": "Slovakia",
+      "city": "Martin",
+      "edition_year": 2026,
+      "date_from": "2026-06-11",
+      "date_to": "2026-06-14",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": null,
+      "source_url": "https://www.turiec.sk/download_file_f.php?id=2421959"
+    },
+    {
+      "id": "sk-gemersky-folklorny-festival-rejdova-rejdova",
+      "name": "Gemerský folklórny festival Rejdová",
+      "type": "festival",
+      "genres": [
+        "folk-acoustic",
+        "world"
+      ],
+      "country": "Slovakia",
+      "city": "Rejdová",
+      "edition_year": 2026,
+      "date_from": "2026-08-13",
+      "date_to": "2026-08-15",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": null,
+      "source_url": "https://villagly.com/sk/event/gemersky-folklorny-festival-rejdova-rejdova-2026/"
+    },
+    {
+      "id": "sk-zamagurske-folklorne-slavnosti-cerveny-klastor",
+      "name": "Zamagurské folklórne slávnosti",
+      "type": "festival",
+      "genres": [
+        "folk-acoustic",
+        "world"
+      ],
+      "country": "Slovakia",
+      "city": "Červený Kláštor",
+      "edition_year": 2026,
+      "date_from": "2026-06-19",
+      "date_to": "2026-06-21",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": null,
+      "source_url": "https://presovregion.travel/podujatie/top-podujatia-leto-2026-v-presovskom-kraji/"
+    },
+    {
+      "id": "sk-stretnutie-goralov-v-pieninach-cerveny-klastor",
+      "name": "Stretnutie goralov v Pieninách",
+      "type": "festival",
+      "genres": [
+        "folk-acoustic",
+        "world"
+      ],
+      "country": "Slovakia",
+      "city": "Červený Kláštor",
+      "edition_year": 2026,
+      "date_from": "2026-08-01",
+      "date_to": "2026-08-02",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": null,
+      "source_url": "https://www.revart.sk/referencie/stretnutie-goralov-v-pieninach-2026/"
+    },
+    {
+      "id": "sk-hornozemplinske-folklorne-slavnosti-vranov-nad-toplou",
+      "name": "Hornozemplínske folklórne slávnosti",
+      "type": "festival",
+      "genres": [
+        "folk-acoustic",
+        "world"
+      ],
+      "country": "Slovakia",
+      "city": "Vranov nad Topľou",
+      "edition_year": 2026,
+      "date_from": "2026-08-29",
+      "date_to": "2026-08-30",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": null,
+      "source_url": "https://www.folklorfest.sk/slavnosti-a-festivaly/"
+    },
+    {
+      "id": "sk-gajdovacka-oravska-polhora",
+      "name": "Gajdovačka",
+      "type": "festival",
+      "genres": [
+        "folk-acoustic",
+        "world"
+      ],
+      "country": "Slovakia",
+      "city": "Oravská Polhora",
+      "edition_year": 2026,
+      "date_from": "2026-09-18",
+      "date_to": "2026-09-20",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": null,
+      "source_url": "https://www.folklorfest.sk/slavnosti-a-festivaly/"
+    },
+    {
+      "id": "sk-folklorne-slavnosti-vernar-vernar",
+      "name": "Folklórne slávnosti Vernár",
+      "type": "festival",
+      "genres": [
+        "folk-acoustic",
+        "world"
+      ],
+      "country": "Slovakia",
+      "city": "Vernár",
+      "edition_year": 2026,
+      "date_from": "2026-06-20",
+      "date_to": "2026-06-20",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": null,
+      "source_url": "https://presovregion.travel/podujatie/top-podujatia-leto-2026-v-presovskom-kraji/"
+    },
+    {
+      "id": "sk-rusinsky-festival-bajerovce",
+      "name": "Rusínsky festival",
+      "type": "festival",
+      "genres": [
+        "folk-acoustic",
+        "world"
+      ],
+      "country": "Slovakia",
+      "city": "Bajerovce",
+      "edition_year": 2026,
+      "date_from": "2026-07-26",
+      "date_to": "2026-07-26",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": null,
+      "source_url": "https://presovregion.travel/podujatie/top-podujatia-leto-2026-v-presovskom-kraji/"
+    },
+    {
+      "id": "sk-trnavska-brana-trnava",
+      "name": "Trnavská brána",
+      "type": "festival",
+      "genres": [
+        "folk-acoustic",
+        "world"
+      ],
+      "country": "Slovakia",
+      "city": "Trnava",
+      "edition_year": 2026,
+      "date_from": "2026-05-29",
+      "date_to": "2026-05-31",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": null,
+      "source_url": "https://trnavske.radio/2026/05/12/festivalova-sezona-uz-klope-na-dvere-nenechajte-si-ju-ujst/"
+    },
+    {
+      "id": "sk-muziky-pod-polanou-hrinova",
+      "name": "Muziky pod Poľanou",
+      "type": "festival",
+      "genres": [
+        "folk-acoustic",
+        "world"
+      ],
+      "country": "Slovakia",
+      "city": "Hriňová",
+      "edition_year": 2025,
+      "date_from": "2025-08-23",
+      "date_to": "2025-08-24",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": null,
+      "source_url": "https://regionpodpolanie.sk/events/muziky-pod-polanou/"
+    },
+    {
+      "id": "sk-ozveny-staroslovienciny-pod-kralovou-holou-telgart",
+      "name": "Ozveny staroslovienčiny pod Kráľovou hoľou",
+      "type": "festival",
+      "genres": [
+        "folk-acoustic",
+        "world"
+      ],
+      "country": "Slovakia",
+      "city": "Telgárt",
+      "edition_year": 2025,
+      "date_from": "2025-07-25",
+      "date_to": "2025-07-27",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": null,
+      "source_url": "https://www.sosbb.sk/oblasti-cinnosti/tradicna-kultura/ozveny-staroslovienciny-pod-kralovou-holou/ozveny-staroslovienciny-2025.html"
+    },
+    {
+      "id": "sk-akademicka-nitra-nitra",
+      "name": "Akademická Nitra",
+      "type": "festival",
+      "genres": [
+        "folk-acoustic",
+        "world"
+      ],
+      "country": "Slovakia",
+      "city": "Nitra",
+      "edition_year": 2025,
+      "date_from": "2025-07-06",
+      "date_to": "2025-07-09",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://akademickanitra.sk/",
+      "source_url": "https://akademickanitra.sk/"
+    },
+    {
+      "id": "sk-viva-musica-bratislava",
+      "name": "Viva Musica!",
+      "type": "festival",
+      "genres": [
+        "classical",
+        "jazz-blues",
+        "multi-genre"
+      ],
+      "country": "Slovakia",
+      "city": "Bratislava",
+      "edition_year": 2026,
+      "date_from": "2026-05-28",
+      "date_to": "2026-08-06",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://vivamusica.sk/",
+      "source_url": "https://vivamusica.sk/en/viva-musica-festival-en/"
+    },
+    {
+      "id": "sk-bratislavske-hudobne-slavnosti-bratislava",
+      "name": "Bratislavské hudobné slávnosti",
+      "type": "festival",
+      "genres": [
+        "classical"
+      ],
+      "country": "Slovakia",
+      "city": "Bratislava",
+      "edition_year": 2026,
+      "date_from": "2026-09-23",
+      "date_to": "2026-10-11",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": null,
+      "source_url": "https://www.filharmonia.sk/znacky/bratislavske-hudobne-slavnosti"
+    },
+    {
+      "id": "sk-konvergencie-bratislava",
+      "name": "Konvergencie",
+      "type": "festival",
+      "genres": [
+        "classical",
+        "experimental",
+        "jazz-blues"
+      ],
+      "country": "Slovakia",
+      "city": "Bratislava",
+      "edition_year": 2026,
+      "date_from": "2026-10-14",
+      "date_to": "2026-10-18",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.konvergencie.sk/",
+      "source_url": "https://www.konvergencie.sk/wp-content/uploads/2026/10/Konvergencie-bez-barier-2026_program.pdf"
+    },
+    {
+      "id": "sk-melos-etos-bratislava",
+      "name": "Melos-Étos",
+      "type": "festival",
+      "genres": [
+        "experimental",
+        "classical"
+      ],
+      "country": "Slovakia",
+      "city": "Bratislava",
+      "edition_year": 2026,
+      "date_from": "2026-11-03",
+      "date_to": "2026-11-13",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "http://www.melosetos.sk/",
+      "source_url": "https://hc.sk/en/melos-etos/aktualita-detail/the-18th-melos-etos-festival-opens-up-new-horizons-in-contemporary-music?id=3206"
+    },
+    {
+      "id": "sk-kosicka-hudobna-jar-kosice",
+      "name": "Košická hudobná jar",
+      "type": "festival",
+      "genres": [
+        "classical"
+      ],
+      "country": "Slovakia",
+      "city": "Košice",
+      "edition_year": 2027,
+      "date_from": "2027-05-20",
+      "date_to": "2027-06-10",
+      "status": "announced",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://khjfestival.sk/",
+      "source_url": "https://sfk.sk/podujatia/Ko%C5%A1ick%C3%A1%20hudobn%C3%A1%20jar"
+    },
+    {
+      "id": "sk-allegretto-zilina-zilina",
+      "name": "Allegretto Žilina",
+      "type": "festival",
+      "genres": [
+        "classical"
+      ],
+      "country": "Slovakia",
+      "city": "Žilina",
+      "edition_year": 2026,
+      "date_from": "2026-04-20",
+      "date_to": "2026-04-25",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "http://www.allegretto.sk/",
+      "source_url": "https://hc.sk/en/allegretto/aktualita-detail/allegretto-zilina-35th-edition-of-the-international-music-festival?id=3099"
+    },
+    {
+      "id": "sk-international-choral-festival-vranov-vranov-nad-toplou",
+      "name": "International Choral Festival Vranov",
+      "type": "festival",
+      "genres": [
+        "classical"
+      ],
+      "country": "Slovakia",
+      "city": "Vranov nad Topľou",
+      "edition_year": 2026,
+      "date_from": "2026-06-12",
+      "date_to": "2026-06-14",
+      "status": "confirmed",
+      "open_call": false,
+      "open_call_url": null,
+      "website": "https://www.ozvena.sk/",
+      "source_url": "https://www.ozvena.sk/festival/37-international-choral-festival/"
+    },
+    {
+      "id": "sk-bratislava-spring-music-festival-bratislava",
+      "name": "Bratislava Spring Music Festival",
+      "type": "festival",
+      "genres": [
+        "classical"
+      ],
+      "country": "Slovakia",
+      "city": "Bratislava",
+      "edition_year": 2027,
+      "date_from": "2027-03-18",
+      "date_to": "2027-03-21",
+      "status": "announced",
+      "open_call": false,
+      "open_call_url": null,
+      "website": null,
+      "source_url": "https://www.choral-music.sk/data/MediaLibrary/6/68263/bc26_brozura.pdf"
+    },
+    {
+      "id": "sk-slovakia-cantat-bratislava",
+      "name": "Slovakia Cantat",
+      "type": "festival",
+      "genres": [
+        "classical"
+      ],
+      "country": "Slovakia",
+      "city": "Bratislava",
+      "edition_year": 2027,
+      "date_from": "2027-04-22",
+      "date_to": "2027-04-25",
+      "status": "announced",
+      "open_call": false,
+      "open_call_url": null,
+      "website": null,
+      "source_url": "https://www.choral-music.sk/data/MediaLibrary/6/68263/bc26_brozura.pdf"
+    },
+    {
+      "id": "sk-bratislava-choir-and-orchestra-festival-bratislava",
+      "name": "Bratislava Choir and Orchestra Festival",
+      "type": "festival",
+      "genres": [
+        "classical"
+      ],
+      "country": "Slovakia",
+      "city": "Bratislava",
+      "edition_year": 2027,
+      "date_from": "2027-06-10",
+      "date_to": "2027-06-13",
+      "status": "announced",
+      "open_call": false,
+      "open_call_url": null,
+      "website": null,
+      "source_url": "https://www.choral-music.sk/data/MediaLibrary/6/68263/bc26_brozura.pdf"
+    },
+    {
+      "id": "sk-bratislava-summer-music-festival-bratislava",
+      "name": "Bratislava Summer Music Festival",
+      "type": "festival",
+      "genres": [
+        "classical"
+      ],
+      "country": "Slovakia",
+      "city": "Bratislava",
+      "edition_year": 2027,
+      "date_from": "2027-07-07",
+      "date_to": "2027-07-10",
+      "status": "announced",
+      "open_call": false,
+      "open_call_url": null,
+      "website": null,
+      "source_url": "https://www.choral-music.sk/data/MediaLibrary/6/68263/bc26_brozura.pdf"
+    },
+    {
+      "id": "sk-international-youth-music-festival-i-bratislava",
+      "name": "International Youth Music Festival I",
+      "type": "festival",
+      "genres": [
+        "classical"
+      ],
+      "country": "Slovakia",
+      "city": "Bratislava",
+      "edition_year": 2027,
+      "date_from": "2027-07-07",
+      "date_to": "2027-07-10",
+      "status": "announced",
+      "open_call": false,
+      "open_call_url": null,
+      "website": null,
+      "source_url": "https://www.choral-music.sk/data/MediaLibrary/6/68263/bc26_brozura.pdf"
+    },
+    {
+      "id": "sk-bratislava-cantat-i-bratislava",
+      "name": "Bratislava Cantat I",
+      "type": "festival",
+      "genres": [
+        "classical"
+      ],
+      "country": "Slovakia",
+      "city": "Bratislava",
+      "edition_year": 2027,
+      "date_from": "2027-07-18",
+      "date_to": "2027-07-21",
+      "status": "announced",
+      "open_call": false,
+      "open_call_url": null,
+      "website": null,
+      "source_url": "https://www.choral-music.sk/data/MediaLibrary/6/68263/bc26_brozura.pdf"
+    },
+    {
+      "id": "sk-international-youth-music-festival-ii-bratislava",
+      "name": "International Youth Music Festival II",
+      "type": "festival",
+      "genres": [
+        "classical"
+      ],
+      "country": "Slovakia",
+      "city": "Bratislava",
+      "edition_year": 2027,
+      "date_from": "2027-07-18",
+      "date_to": "2027-07-21",
+      "status": "announced",
+      "open_call": false,
+      "open_call_url": null,
+      "website": null,
+      "source_url": "https://www.choral-music.sk/data/MediaLibrary/6/68263/bc26_brozura.pdf"
+    },
+    {
+      "id": "sk-bratislava-cantat-ii-bratislava",
+      "name": "Bratislava Cantat II",
+      "type": "festival",
+      "genres": [
+        "classical"
+      ],
+      "country": "Slovakia",
+      "city": "Bratislava",
+      "edition_year": 2027,
+      "date_from": "2027-10-07",
+      "date_to": "2027-10-10",
+      "status": "announced",
+      "open_call": false,
+      "open_call_url": null,
+      "website": null,
+      "source_url": "https://www.choral-music.sk/data/MediaLibrary/6/68263/bc26_brozura.pdf"
+    },
+    {
+      "id": "sk-international-festival-of-advent-and-christmas-music-bratislava",
+      "name": "International Festival of Advent and Christmas Music",
+      "type": "festival",
+      "genres": [
+        "classical"
+      ],
+      "country": "Slovakia",
+      "city": "Bratislava",
+      "edition_year": 2027,
+      "date_from": "2027-12-02",
+      "date_to": "2027-12-05",
+      "status": "announced",
+      "open_call": false,
+      "open_call_url": null,
+      "website": null,
+      "source_url": "https://www.choral-music.sk/data/MediaLibrary/6/68263/bc26_brozura.pdf"
+    }
+  ]
+}
