@@ -284,6 +284,19 @@ def search_venues(conn, today: date, city=None, countries=None, genres=None, lim
     return {"total_matches": len(hits), "cache_valid": bool(hits), "venues": hits[:n]}
 
 
+def city_country(conn, city) -> str | None:
+    """Země města podle validovaných záznamů (Brno → CZ). Jen když je jednoznačná."""
+    key = norm(city)
+    if not key:
+        return None
+    found = set()
+    for table in ("festivals", "venues"):
+        for row in conn.execute(f"SELECT city, country FROM {table} WHERE record_state = 'validated'"):
+            if norm(row["city"]) == key and row["country"] in COUNTRIES:
+                found.add(row["country"])
+    return found.pop() if len(found) == 1 else None
+
+
 TOOLS = {
     "search_festivals": search_festivals,
     "get_festival": get_festival,

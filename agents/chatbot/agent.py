@@ -83,8 +83,10 @@ Rules:
 - If a result has more_available, say how many festivals were not listed and offer them. Never present a partial list as complete.
 - Capacity tells the band's level: under 5k small stage or open call, 5k-25k mid, above 25k headliner territory.
   If capacity is missing, say the level cannot be judged from the data.
-- For gigs in a city with no valid venue data, call request_search once with kind "gigs" and tell the user
-  that a search was requested and results will appear after validation.
+- For gigs, call search_venues with the city (and genres). If cache_valid is false, the system queues a search
+  itself and reports it in search_request.
+- Say that a search was requested ONLY if a tool result in this conversation contains "queued": true.
+  If "queued" is false, tell the user why. Never claim an action that no tool result confirms.
 - Answer in the user's language, in plain text (no HTML). Be concise.
 """
 
@@ -108,22 +110,48 @@ def _collect(ctx: TurnContext, result: dict) -> None:
                                       "sources": [s["url"] for s in f.get("sources") or []][:3]}
 
 
+def _queue_search(args: dict, ctx: TurnContext, settings, state_conn) -> dict:
+    if ctx.adhoc_used >= settings.adhoc_per_question:
+        return {"queued": False, "reason": "only one search request per question"}
+    ctx.adhoc_used += 1
+    result = limits.create_request(state_conn, args, ctx.client, settings)
+    ctx.adhoc.append(result)
+    return result
+
+
+def _first(value):
+    if isinstance(value, list):
+        return value[0] if len(value) == 1 else None
+    return value or None
+
+
+def _auto_gig_search(conn, args: dict, ctx: TurnContext, settings, state_conn) -> dict:
+    """Prázdná cache gigů → hledání zadá kód, ne model (model to jinak jen slíbí)."""
+    country = _first(args.get("countries")) or data.city_country(conn, args.get("city"))
+    if not country:
+        return {"queued": False, "reason": "country of this city is unknown; call request_search with country"}
+    genres = args.get("genres")
+    genre = (genres[0] if isinstance(genres, list) and genres else genres) or "multi-genre"
+    try:
+        return _queue_search({"kind": "gigs", "country": country, "city": args.get("city"), "genre": genre},
+                             ctx, settings, state_conn)
+    except data.ToolError as e:
+        return {"queued": False, "reason": str(e)}
+
+
 def run_tool(name: str, args: dict, ctx: TurnContext, settings, state_conn) -> dict:
     args = args if isinstance(args, dict) else {}
     try:
         if name == "request_search":
-            if ctx.adhoc_used >= settings.adhoc_per_question:
-                return {"queued": False, "reason": "only one search request per question"}
-            ctx.adhoc_used += 1
-            result = limits.create_request(state_conn, args, ctx.client, settings)
-            ctx.adhoc.append(result)
-            return result
+            return _queue_search(args, ctx, settings, state_conn)
         fn = data.TOOLS.get(name)
         if not fn:
             return {"error": f"unknown tool {name}"}
         today = datetime.now(PRAGUE).date()
         with closing(data.connect_ro(settings.dataset_db)) as conn:
             result = fn(conn, today, **{k: v for k, v in args.items() if k != "conn"})
+            if name == "search_venues" and not result["cache_valid"] and args.get("city"):
+                result["search_request"] = _auto_gig_search(conn, args, ctx, settings, state_conn)
         _collect(ctx, result)
         return result
     except data.ToolError as e:

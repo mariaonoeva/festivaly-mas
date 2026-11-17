@@ -205,6 +205,25 @@ class AgentLoop(ChatbotBase):
         n = self.state.execute("SELECT COUNT(*) FROM adhoc_requests").fetchone()[0]
         self.assertEqual(n, 1)
 
+    def test_empty_gig_cache_queues_search_in_code(self):
+        # Model jen zavolá search_venues a pak tvrdí, že hledání zadal. Požadavek musí vzniknout v kódu.
+        llm = scripted([("search_venues", {"city": "Brno", "genres": ["punk-hardcore"]})],
+                       "Prohledání bylo vyžádáno.")
+        out = agent.answer("punk v Brně?", [], "c1", self.settings, self.state, llm=llm)
+        self.assertEqual(len(out["search_requests"]), 1)
+        self.assertTrue(out["search_requests"][0]["queued"])
+        row = self.state.execute("SELECT kind, params FROM adhoc_requests").fetchone()
+        self.assertEqual(row["kind"], "gigs")
+        self.assertEqual(json.loads(row["params"])["country"], "CZ")   # odvozeno z datasetu
+        fn_resp = llm.seen[1][-1]["parts"][0]["functionResponse"]["response"]
+        self.assertTrue(fn_resp["search_request"]["queued"])
+
+    def test_unknown_city_is_not_queued_blindly(self):
+        llm = scripted([("search_venues", {"city": "Atlantis"})], "x")
+        out = agent.answer("gigy v Atlantidě", [], "c1", self.settings, self.state, llm=llm)
+        self.assertEqual(out["search_requests"], [])
+        self.assertFalse(llm.seen[1][-1]["parts"][0]["functionResponse"]["response"]["search_request"]["queued"])
+
     def test_tool_rounds_are_capped(self):
         loop = [("search_festivals", {})]
         llm = scripted(loop, loop, loop, loop, loop, loop, loop, loop)
