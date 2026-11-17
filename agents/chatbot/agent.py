@@ -9,12 +9,16 @@ import logging
 from contextlib import closing
 from dataclasses import dataclass, field
 from datetime import datetime
-from zoneinfo import ZoneInfo
+from datetime import timedelta, timezone
+from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
 
 from . import data, gemini, limits
 
 log = logging.getLogger("chatbot")
-PRAGUE = ZoneInfo("Europe/Prague")
+try:
+    PRAGUE = ZoneInfo("Europe/Prague")
+except ZoneInfoNotFoundError:  # Windows bez balíčku tzdata: stačí SEČ, jde jen o dnešní datum
+    PRAGUE = timezone(timedelta(hours=1), "CET")
 MAX_CALLS_PER_ROUND = 3
 
 _S, _A, _I, _B, _O = "STRING", "ARRAY", "INTEGER", "BOOLEAN", "OBJECT"
