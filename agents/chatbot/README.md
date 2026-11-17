@@ -56,3 +56,20 @@ Gigy se zatím jen zaznamenají (`unsupported`), pipeline venues ještě neexist
 (`.env.local`, na Vercelu Environment Variables). Odpověď se vykresluje jako text, odkazy jen `http(s)`,
 seznam zdrojů jen z pole `festivals`. Ověřeno v prohlížeči (Playwright): `<img onerror>` i `javascript:` z odpovědi
 modelu se zobrazí jako text a nespustí se.
+
+## Nasazení (obhajoba): backend přes Cloudflare Quick Tunnel
+Render ani Vercel nejdou: Python backend potřebuje trvalé `.agent-state/` (SQLite) a Render free
+má dočasný disk a po 15 min usíná. Backend proto běží na počítači člena týmu a ven ho vystaví tunel.
+
+1. `winget install --id Cloudflare.cloudflared`
+2. `.env`: `CHAT_CLIENT_IP_HEADER=CF-Connecting-IP` a v `CHAT_ALLOWED_ORIGINS` doména webu
+   (`https://festivaly-mas.vercel.app`).
+3. Terminál 1: `cd agents` → `python -m chatbot.server --port 8787`
+4. Terminál 2: `cloudflared tunnel --url http://127.0.0.1:8787` → vypíše `https://<náhodné>.trycloudflare.com`
+5. Kontrola: `https://<náhodné>.trycloudflare.com/api/health` → `{"ok": true}`
+6. Vercel → Settings → Environment Variables: `NEXT_PUBLIC_CHAT_API_URL=https://<náhodné>.trycloudflare.com`,
+   pak **Redeploy** (proměnná `NEXT_PUBLIC_` se vkládá při buildu).
+
+Adresa tunelu se mění při každém spuštění → kroky 4–6 zopakovat. Tunel nemá záruku dostupnosti:
+záloha na obhajobě je lokální běh (`pnpm dev` + `http://127.0.0.1:3000`).
+Na Vercel nepatří žádný klíč, jen veřejná adresa backendu.
