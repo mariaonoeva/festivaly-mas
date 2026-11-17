@@ -219,6 +219,7 @@ class Endpoint(ChatbotBase):
     def serve(self, settings, llm):
         httpd = ThreadingHTTPServer(("127.0.0.1", 0), make_handler(settings, self.state, llm=llm))
         threading.Thread(target=httpd.serve_forever, daemon=True).start()
+        self.addCleanup(httpd.server_close)
         self.addCleanup(httpd.shutdown)
         return f"http://127.0.0.1:{httpd.server_address[1]}"
 
@@ -230,7 +231,8 @@ class Endpoint(ChatbotBase):
             with urllib.request.urlopen(req, timeout=10) as r:
                 return r.status, json.load(r), dict(r.headers)
         except urllib.error.HTTPError as e:
-            return e.code, json.load(e), dict(e.headers)
+            with e:
+                return e.code, json.load(e), dict(e.headers)
 
     def test_happy_path_and_headers(self):
         base = self.serve(self.settings, scripted("Hello"))
