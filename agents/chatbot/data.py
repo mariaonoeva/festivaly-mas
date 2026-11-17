@@ -168,9 +168,13 @@ def search_festivals(conn, today: date, genres=None, countries=None, city=None, 
         overlap = len(set(genres) & set(rec.get("genres") or [])) if genres else 0
         hits.append((-overlap, start or "9999", rec))
     hits.sort(key=lambda h: (h[0], h[1]))
-    n = _limit(limit)
-    return {"total_matches": len(hits), "returned": min(n, len(hits)),
-            "festivals": [_summary(h[2], today) for h in hits[:n]]}
+    n = _limit(limit, 10)
+    out = {"total_matches": len(hits), "returned": min(n, len(hits)),
+           "festivals": [_summary(h[2], today) for h in hits[:n]]}
+    if len(hits) > n:
+        out["more_available"] = (f"{len(hits) - n} more matches not shown; tell the user and offer them, "
+                                 f"or call again with a higher limit or a narrower period")
+    return out
 
 
 def get_festival(conn, today: date, festival_id=None) -> dict:

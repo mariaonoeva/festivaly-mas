@@ -80,6 +80,7 @@ Rules:
 - For each festival you recommend, give its website or a source URL from the tool result.
 - If edition_already_took_place is true, say the last known edition is over and the next one is not confirmed yet.
 - Mention when confidence is "low".
+- If a result has more_available, say how many festivals were not listed and offer them. Never present a partial list as complete.
 - Capacity tells the band's level: under 5k small stage or open call, 5k-25k mid, above 25k headliner territory.
   If capacity is missing, say the level cannot be judged from the data.
 - For gigs in a city with no valid venue data, call request_search once with kind "gigs" and tell the user

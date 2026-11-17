@@ -86,6 +86,17 @@ class DataTools(ChatbotBase):
         self.assertFalse(any(f["edition_already_took_place"] for f in res["festivals"]))
         self.assertFalse(any(f["status"] == "cancelled" for f in res["festivals"]))
 
+    def test_partial_list_is_flagged(self):
+        with self.ro() as c:
+            summer = data.search_festivals(c, TODAY, genres=["metal"], countries=["CZ"],
+                                           date_from="2027-06-01", date_to="2027-08-31", limit=8)
+            full = data.search_festivals(c, TODAY, genres=["metal"], countries=["CZ"],
+                                         date_from="2027-06-01", date_to="2027-08-31", limit=15)
+        self.assertGreater(summer["total_matches"], 8)
+        self.assertIn("more_available", summer)
+        self.assertIn("Rock Castle", {f["name"] for f in full["festivals"]})
+        self.assertNotIn("more_available", full)
+
     def test_date_range_and_open_call(self):
         with self.ro() as c:
             june = data.search_festivals(c, TODAY, date_from="2027-06-01", date_to="2027-06-30", limit=15)
