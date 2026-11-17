@@ -48,4 +48,11 @@ a veřejná data o festivalech, žádné osobní údaje.
 ## Tok ad hoc hledání
 Chatbot → `chatbot.sqlite` (`adhoc_requests`) → `pipeline.py --refresh` je převede na úkol
 `search` pro Průzkumníka (priorita 5) → Extraktor → Validátor → po schválení je chatbot najde.
-Gigy se zatím jen zaznamenají (`unsupported`), pipeline venues ještě neexistuje.
+Gigy se zatím jen zaznamenají (`unsupported`), pipeline venues ještě neexistuje. Chatbot to kapele řekne
+(`note` u požadavku) a nic neslibuje.
+
+## Web
+`components/ChatPanel.tsx` (v `app/layout.tsx`, na všech stránkách). Adresa backendu z `NEXT_PUBLIC_CHAT_API_URL`
+(`.env.local`, na Vercelu Environment Variables). Odpověď se vykresluje jako text, odkazy jen `http(s)`,
+seznam zdrojů jen z pole `festivals`. Ověřeno v prohlížeči (Playwright): `<img onerror>` i `javascript:` z odpovědi
+modelu se zobrazí jako text a nespustí se.

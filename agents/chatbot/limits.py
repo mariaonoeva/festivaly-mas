@@ -144,4 +144,8 @@ def create_request(conn, args: dict, client: str, settings) -> dict:
                            "VALUES (?, ?, ?, ?, ?)",
                            (params["kind"], json.dumps(params, ensure_ascii=False), key, client,
                             now().strftime("%Y-%m-%dT%H:%M:%SZ")))
-    return {"queued": True, "request_id": cur.lastrowid, "params": params}
+    result = {"queued": True, "request_id": cur.lastrowid, "params": params}
+    if params["kind"] == "gigs":
+        result["note"] = ("recorded only: automatic search for clubs and venues is not running yet, "
+                          "so do not promise results")
+    return result

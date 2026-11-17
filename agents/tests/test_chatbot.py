@@ -212,6 +212,7 @@ class AgentLoop(ChatbotBase):
         out = agent.answer("punk v Brně?", [], "c1", self.settings, self.state, llm=llm)
         self.assertEqual(len(out["search_requests"]), 1)
         self.assertTrue(out["search_requests"][0]["queued"])
+        self.assertIn("not running yet", out["search_requests"][0]["note"])   # nic neslibovat
         row = self.state.execute("SELECT kind, params FROM adhoc_requests").fetchone()
         self.assertEqual(row["kind"], "gigs")
         self.assertEqual(json.loads(row["params"])["country"], "CZ")   # odvozeno z datasetu

@@ -87,6 +87,7 @@ Rules:
   itself and reports it in search_request.
 - Say that a search was requested ONLY if a tool result in this conversation contains "queued": true.
   If "queued" is false, tell the user why. Never claim an action that no tool result confirms.
+- If a search result has a note, follow it (e.g. do not promise results for gigs).
 - Answer in the user's language, in plain text (no HTML). Be concise.
 """
 
