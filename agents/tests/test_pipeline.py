@@ -22,6 +22,7 @@ class PipelineTests(unittest.TestCase):
             dataset = root / "festivals.json"
             original = pipeline.read_dataset(pipeline.ROOT / "data/festivals.json")
             dataset.write_text(json.dumps(original), encoding="utf-8")
+            original_mode = dataset.stat().st_mode & 0o777  # 0o644 na Linuxu/macOS, 0o666 na Windows
             state = root / "state"
             year = date.today().year + 1
             url = "https://festival-fixture.cz/"
@@ -51,7 +52,7 @@ class PipelineTests(unittest.TestCase):
                     first_export = dataset.read_bytes()
                     pipeline.run(args)
                     self.assertEqual(dataset.read_bytes(), first_export)
-                    self.assertEqual(dataset.stat().st_mode & 0o777, 0o644)
+                    self.assertEqual(dataset.stat().st_mode & 0o777, original_mode)
 
                     with closing(db.connect(state / "validator.sqlite")) as validator:
                         record = validator.execute("SELECT id FROM festivals").fetchone()

@@ -13,6 +13,7 @@ from pathlib import Path
 
 from adam_agents import db
 from adam_agents.freshness import run_freshness
+from adam_agents.genres import GENRES
 from adam_agents.importer import map_festival
 from adam_agents.snapshot import export_snapshot
 from adam_agents.validator import run_validator
@@ -213,6 +214,47 @@ def queue_refresh(validator, collector, limit):
             collector.execute("INSERT INTO refresh_jobs VALUES (?, ?)", (task["id"], job.lastrowid))
 
 
+CHATBOT_PRIORITY = 5   # Adamova fronta: 0 = nejvyšší; ad hoc od kapel má přednost před plánem
+
+
+def forward_chatbot_requests(validator, chatbot_path, limit):
+    """Převede ad hoc požadavky chatbota (pevná šablona) na úkoly pro Průzkumníka.
+
+    Chatbot nemá zápis do datasetu ani do fronty agentů; tuhle hranici překračuje jen runner.
+    """
+    if not chatbot_path.is_file():
+        return {"forwarded": 0}
+    from chatbot.limits import template_params  # stejná validace jako při vzniku požadavku
+    forwarded = unsupported = 0
+    with closing(db.connect(chatbot_path)) as chat:
+        rows = chat.execute("SELECT * FROM adhoc_requests WHERE status='new' ORDER BY id LIMIT ?", (limit,)).fetchall()
+        for req in rows:
+            try:
+                params = template_params(json.loads(req["params"]))
+            except (ValueError, TypeError):
+                chat.execute("UPDATE adhoc_requests SET status='unsupported' WHERE id=?", (req["id"],))
+                continue
+            if params["kind"] != "festival":
+                # Gigy: pipeline venues (OSM, setlist.fm) zatím neexistuje.
+                chat.execute("UPDATE adhoc_requests SET status='unsupported' WHERE id=?", (req["id"],))
+                unsupported += 1
+                continue
+            season = int((params["period_from"] or str(date.today().year + 1))[:4])
+            db.enqueue_task(
+                validator, type="search", priority=CHATBOT_PRIORITY, created_by="chatbot", assigned_to="explorer",
+                payload={"entity": "festival", "kind": "chatbot_request", "country": params["country"],
+                         "genre": params["genre"], "city": params["city"], "season": season,
+                         "chatbot_request": req["id"]},
+                dedupe_key=f"chatbot:{params['country']}:{params['genre']}:{season}",
+            )
+            chat.execute("UPDATE adhoc_requests SET status='forwarded', forwarded_at=? WHERE id=?",
+                         (db.iso(db.utcnow()), req["id"]))
+            forwarded += 1
+        chat.commit()
+    validator.commit()
+    return {"forwarded": forwarded, "unsupported_gigs": unsupported}
+
+
 def run_scheduled_searches(validator, collector_path, limit):
     """Consume queued CZ/SK discovery tasks when Exa credentials are available."""
     if not os.getenv("EXA_API_KEY"):
@@ -225,11 +267,12 @@ def run_scheduled_searches(validator, collector_path, limit):
         if not country or payload.get("entity") != "festival":
             continue
         year = payload.get("season") or date.today().year + 1
+        genre = payload.get("genre") if payload.get("genre") in GENRES else "multi-genre"
         try:
             found = scout.search_new_festivals(
-                country, "multi-genre", str(year), limit, festival_name=payload.get("name"),
+                country, genre, str(year), limit, festival_name=payload.get("name"),
             )
-            queued = scout.save_to_queue(found, "multi-genre", country, str(collector_path))
+            queued = scout.save_to_queue(found, genre, country, str(collector_path))
         except Exception:
             print(f"Scheduled Exa task {task['id']} will retry on the next refresh.")
             break
@@ -271,6 +314,8 @@ def run(args):
                         raise ValueError(f"Invalid festival URL: {url}")
                     extraktor.pridej_ukol(collector, "extract", {"url": url, "kind": "festival"}, "manual")
                 if args.refresh:
+                    print("Chatbot requests:", forward_chatbot_requests(
+                        validator, args.state / "chatbot.sqlite", args.limit))
                     queue_refresh(validator, collector, args.limit)
                     run_scheduled_searches(validator, collector_path, args.limit)
                 extraktor.zpracuj_frontu(collector, args.limit)
