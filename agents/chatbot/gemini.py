@@ -12,7 +12,17 @@ API = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateC
 
 
 class LLMError(Exception):
-    """Selhání LLM. Zpráva obsahuje jen HTTP kód, nikdy klíč ani tělo odpovědi."""
+    """Selhání LLM. Zpráva (HTTP kód + důvod od Googlu) jde jen do logu, nikdy klíč."""
+
+
+def _reason(err: urllib.error.HTTPError) -> str:
+    """Krátký důvod chyby od Googlu, jen pro log serveru (neobsahuje klíč, uživateli se neposílá)."""
+    try:
+        with err:
+            detail = json.load(err).get("error", {})
+        return f"{detail.get('status', '')} {str(detail.get('message', ''))[:300]}".strip()
+    except Exception:
+        return "no detail"
 
 
 def generate(*, api_key: str, model: str, system: str, contents: list, tools: list,
@@ -34,6 +44,6 @@ def generate(*, api_key: str, model: str, system: str, contents: list, tools: li
         with urllib.request.urlopen(req, timeout=timeout) as resp:
             return json.load(resp)
     except urllib.error.HTTPError as e:
-        raise LLMError(f"gemini http {e.code}") from None
+        raise LLMError(f"gemini http {e.code}: {_reason(e)}") from None
     except (urllib.error.URLError, TimeoutError, json.JSONDecodeError) as e:
         raise LLMError(f"gemini unreachable: {type(e).__name__}") from None
