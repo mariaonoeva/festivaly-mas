@@ -1,0 +1,75 @@
+{
+  "_note": "Testovací data. Názvy a weby jsou reálné, termíny a údaje jsou smyšlené pro testy pravidel.",
+  "festivals": [
+    {"name": "Colours of Ostrava", "url": "https://www.colours.cz", "country": "CZ", "city": "Ostrava",
+     "lat": 49.8209, "lon": 18.2930, "date_from": "2027-07-14", "date_to": "2027-07-17", "edition": 2027,
+     "genres": ["pop", "indie", "world music"], "capacity_cat": "25k-50k", "status": "announced",
+     "open_call": {"has": false},
+     "sources": [{"field": "date_from", "value": "2027-07-14", "url": "https://www.colours.cz", "fetched_at": "2026-11-10T09:00:00Z"}]},
+
+    {"name": "Colours of Ostrava 2027", "url": "https://goout.net/cs/colours-of-ostrava", "country": "Czechia", "city": "Ostrava",
+     "lat": 49.821, "lon": 18.293, "date_from": "2027-07-14", "date_to": "2027-07-17",
+     "genres": ["pop"], "status": "announced",
+     "sources": [{"field": "date_from", "value": "2027-07-14", "url": "https://goout.net/cs/colours-of-ostrava", "fetched_at": "2026-11-11T09:00:00Z"}]},
+
+    {"name": "Pohoda", "url": "https://www.pohodafestival.sk", "country": "SK", "city": "Trenčín",
+     "lat": 18.0333, "lon": 48.8833, "date_from": "2027-07-08", "date_to": "2027-07-10",
+     "genres": ["indie", "electronic", "jazz"], "capacity_cat": "25k-50k", "status": "announced",
+     "open_call": {"has": true, "url": "https://www.pohodafestival.sk/open-call", "deadline": "2027-01-31"},
+     "sources": [{"field": "date_from", "value": "2027-07-08", "url": "https://www.pohodafestival.sk", "fetched_at": "2026-11-12T08:00:00Z"}]},
+
+    {"name": "Brutal Assault", "url": "https://brutalassault.cz", "country": "CZ", "city": "Jaroměř",
+     "lat": 50.3478, "lon": 15.9244, "date_from": "2027-08-07", "date_to": "2027-08-04",
+     "genres": ["melodic death metal", "black metal", "hardcore"], "capacity_cat": "5k-25k", "status": "confirmed",
+     "sources": [{"field": "date_from", "value": "2027-08-07", "url": "https://brutalassault.cz", "fetched_at": "2026-11-12T08:00:00Z"}]},
+
+    {"name": "Rock am Ring", "url": "https://www.rock-am-ring.com", "country": "DE", "city": "Nürburg",
+     "lat": 50.3356, "lon": 6.9475, "date_from": "2027-06-04", "date_to": "2027-06-06", "edition": 2027,
+     "genres": ["rock", "metal", "punk"], "capacity_cat": ">50k", "status": "confirmed",
+     "sources": [
+       {"field": "date_from", "value": "2027-06-04", "url": "https://www.rock-am-ring.com", "fetched_at": "2026-11-12T08:00:00Z"},
+       {"field": "date_from", "value": "2027-06-11", "url": "https://www.eventim.de/rock-am-ring", "fetched_at": "2026-11-13T08:00:00Z"},
+       {"field": "date_to", "value": "2027-06-06", "url": "https://www.rock-am-ring.com", "fetched_at": "2026-11-12T08:00:00Z"}]},
+
+    {"name": "Nova Rock", "url": "https://www.novarock.at", "country": "AT", "city": "Nickelsdorf",
+     "lat": 47.9394, "lon": 17.0689, "date_from": "2027-06-10", "date_to": "2027-06-13",
+     "genres": ["rock", "metal"], "capacity_cat": ">50k", "status": "announced",
+     "sources": [{"field": "date_from", "value": "2027-06-10", "url": "https://www.novarock.at", "fetched_at": "2026-11-12T08:00:00Z"},
+                 {"field": "status", "value": "announced", "url": "https://en.wikipedia.org/wiki/Nova_Rock", "fetched_at": "2026-11-12T08:00:00Z"}]},
+
+    {"name": "Open'er Festival", "url": "https://opener.pl", "country": "PL", "city": "Gdynia",
+     "lat": 54.5296, "lon": 18.4897, "date_from": "2027-07-01", "date_to": "2027-07-04",
+     "genres": ["pop", "hip-hop", "alternative"], "capacity_cat": ">50k", "status": "announced",
+     "sources": [{"field": "date_from", "value": "2027-07-01", "url": "https://opener.pl", "fetched_at": "2026-11-12T08:00:00Z"}]},
+
+    {"name": "Mighty Sounds", "url": "https://www.mightysounds.cz", "country": "CZ", "city": "Tábor",
+     "lat": 49.4144, "lon": 14.6578, "date_from": "2026-11-20", "date_to": "2026-11-22",
+     "genres": ["punk", "ska", "reggae"], "capacity_cat": "5k-25k", "status": "confirmed",
+     "sources": [{"field": "date_from", "value": "2026-11-20", "url": "https://www.mightysounds.cz", "fetched_at": "2026-11-12T08:00:00Z"}]},
+
+    {"name": "Rock for People", "url": "https://rockforpeople.cz", "country": "CZ", "city": "Hradec Králové",
+     "lat": 50.2092, "lon": 15.8328, "date_from": "2026-06-11", "date_to": "2026-06-13", "edition": 2026,
+     "genres": ["rock", "alternative"], "capacity_cat": "25k-50k", "status": "confirmed",
+     "sources": [{"field": "date_from", "value": "2026-06-11", "url": "https://rockforpeople.cz", "fetched_at": "2026-06-01T08:00:00Z"}]},
+
+    {"name": "Bezejmenný festival", "url": "notaurl", "country": "CZ", "city": "Brno",
+     "date_from": "2027-05-01", "status": "announced", "genres": ["polka-step"],
+     "sources": []}
+  ],
+  "venues": [
+    {"name": "Roxy", "type": "club", "url": "https://www.roxy.cz", "country": "CZ", "region": "CZ010", "city": "Praha",
+     "lat": 50.0905, "lon": 14.4268, "capacity": 900, "genres": ["electronic", "indie"], "band_size": "mid",
+     "booking_contact": "booking@roxy.cz",
+     "sources": [{"field": "capacity", "value": "900", "url": "https://www.roxy.cz", "fetched_at": "2026-11-12T08:00:00Z"}]},
+
+    {"name": "Kabinet Múz", "type": "club", "url": "https://www.kabinetmuz.cz", "country": "CZ", "region": "CZ064", "city": "Brno",
+     "lat": 49.1990, "lon": 16.6100, "capacity": 300, "genres": ["indie", "alternative", "jazz"], "band_size": "emerging",
+     "booking_contact": "jan.novak@example.com",
+     "call_for_bands": {"has": true, "url": "https://www.kabinetmuz.cz/open-call", "deadline": "2026-11-20"},
+     "sources": [{"field": "type", "value": "club", "url": "https://www.kabinetmuz.cz", "fetched_at": "2026-11-12T08:00:00Z"}]},
+
+    {"name": "Fléda", "type": "club", "url": "https://www.fleda.cz", "country": "CZ", "region": "CZ064", "city": "Brno",
+     "lat": 52.52, "lon": 13.40, "capacity": 650, "genres": ["rock", "metal"], "band_size": "mid",
+     "sources": [{"field": "city", "value": "Brno", "url": "https://www.fleda.cz", "fetched_at": "2026-11-12T08:00:00Z"}]}
+  ]
+}

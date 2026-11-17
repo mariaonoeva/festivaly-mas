@@ -30,19 +30,15 @@ pnpm dev
 5. `app/globals.css` controls the responsive design. DM Sans and Bricolage Grotesque load from Google Fonts. The display font stack prefers Miox when available. A licensed Miox webfont can be added with an @font-face rule in app/globals.css.
 6. `app/layout.tsx` sets the page title, language and shared styles.
 
-## First version
+## Browse festivals
 
-On the home page, enter a band name and select one or more genre and opportunity bubbles. Festival matching accepts any of the selected genres and excludes past and cancelled editions. Use the open-call filter to narrow the results to entries with a listed call. Gig matching shows a data notice because this snapshot contains festivals only. Open `/festivals` to browse the complete catalogue independently.
+On the home page, select one or more genre bubbles to update festival matches. With no genres selected, all genres are included. Home-page matching excludes past and cancelled editions. Scroll over the map to zoom, then drag to pan. Select a map pin or city bubble to see the city's festivals below the map. The calendar filters map results by date, and the selected city's list covers matching festivals across dates.
 
-The browser also supports searches by festival name or city, filters for country, genre, edition and status, upcoming editions, and records with an open call. Clicking a festival opens its dates, status and source links. Records appear in batches of 24.
-
-Open calls are explicitly described as listed in the saved dataset. A false open-call value displays “No active call found”. Dates marked confirmed are shown as confirmed in the dataset. This app does not fetch or verify external pages. Cancelled and past editions are labelled. Unknown dates remain unknown. Source links open in a new tab.
+Open `/festivals` for the full catalogue, `/dataset` for the project and data overview, and `/gigs` for the planned gig feature. Click a festival to see its dates, status and source links, plus lineups or booking deadlines when available. The home page also lists festivals awaiting dates and those with listed open calls.
 
 ## Updating the data
 
-Replace `data/festivals.json` with a new file using the same wrapper and record fields. Save it and reload the website. Keep IDs unique. The first two agents can supply this file later.
-
-Adam's snapshot uses another schema, including `url`, country codes and an object for `open_call`. Map that output to the `Festival` type before connecting it. Band results use Natural Earth boundaries and GeoNames city coordinates. Select a city pin to explore festival details. The results list also includes festivals whose locations could not be matched. Venue coordinates, venue data, live agent execution and the chatbot are further integration work.
+The website reads `data/festivals.json`. The Python runner described below converts and merges validated agent output into that file. Nothing runs automatically when a visitor opens the site. Open calls reflect the saved snapshot, and festival details link to the original sources.
 
 ## Check and build
 
@@ -56,4 +52,48 @@ pnpm start
 
 ## Sharing the project
 
-The application is self-contained in this folder. Its source files, copied dataset and pnpm lockfile can be committed to a GitHub repository. `.gitignore` excludes installed packages, build output, local environment files and macOS metadata. The current version requires no API keys.
+The application is self-contained in this folder. Its source files, copied dataset and pnpm lockfile can be committed to a GitHub repository. `.gitignore` excludes installed packages, build output, local environment files and macOS metadata. Browsing the saved data requires no API keys. Live discovery with Exa requires an Exa key.
+
+## Refresh the festival snapshot
+
+Run the Python agents from the app repository root. The Scout and Extractor use
+a collector database. The Validator and Freshness Manager use a second database
+because their table schemas differ. The runner exchanges candidate JSON and
+queued tasks between them. The website reads the resulting `data/festivals.json`.
+
+Use Python 3.10 or later. The Extractor and Validator use the standard library.
+For live Exa discovery, install the Scout dependencies in a virtual environment
+and supply `EXA_API_KEY` in your shell. Set `NOMINATIM_CONTACT_EMAIL` to enable
+geocoding when a festival page has no coordinates.
+
+```sh
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r agents/requirements.txt
+
+# Start with one known festival URL, or discover up to five with Exa.
+python agents/pipeline.py --url https://www.colours.cz/
+python agents/pipeline.py --scout --country "Czech Republic" --genre metal --limit 5
+
+# Import an existing Extractor --export-web file without making network calls.
+python agents/pipeline.py --candidates /path/to/candidates.json
+
+# Process a batch of queued rechecks and, with an Exa key, discovery tasks.
+python agents/pipeline.py --refresh --limit 5
+```
+
+Add `--seed-baseline` to a run to register the saved website records for future
+checks. Keep the same `--state` directory between runs so the agents remember
+their queues and prior checks. For a dry run, use `--dataset` with a copy of
+`data/festivals.json` and `--state` with a separate directory. Intermediate files,
+the validator's snapshots, and the SQLite databases are in `.agent-state/`
+by default. Review and commit only the intended changes to the website dataset
+before deploying. Run one refresh process at a time.
+
+Published agent records have passed the Validator. Existing website entries are
+preserved until an approved update replaces them. The runner targets festival
+records in Czechia and Slovakia. The venue extraction code is available in
+`agents/extraktor.py`, and the public demo currently uses festival data.
+
+Run the Python tests with `cd agents && python3 -m unittest discover -s tests`.
+The integration tests use fixture search results and HTML with no live API calls.

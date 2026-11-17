@@ -37,10 +37,16 @@ export default function SiteHeader() {
           All festivals
         </Link>
         <Link
+          href="/gigs"
+          aria-current={pathname === "/gigs" ? "page" : undefined}
+        >
+          Gigs
+        </Link>
+        <Link
           href="/dataset"
           aria-current={pathname === "/dataset" ? "page" : undefined}
         >
-          Dataset
+          About
         </Link>
         <button
           className="theme-toggle"

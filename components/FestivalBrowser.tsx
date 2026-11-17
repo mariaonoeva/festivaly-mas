@@ -1,5 +1,7 @@
 "use client";
 
+import Link from "next/link";
+
 import FestivalCalendar, { CalendarEventList } from "./FestivalCalendar";
 import FestivalMap from "./FestivalMap";
 import { useMemo, useRef, useState } from "react";
@@ -108,7 +110,6 @@ export default function FestivalBrowser({
   today,
   catalogue = false,
 }: Props) {
-  const [bandName, setBandName] = useState("");
   const [bandGenres, setBandGenres] = useState<string[]>([]);
   const [opportunityTypes, setOpportunityTypes] = useState(["festivals"]);
   const showFestivals = !catalogue && opportunityTypes.includes("festivals");
@@ -185,15 +186,6 @@ export default function FestivalBrowser({
           >
             <div className="band-form">
               <h1>Find a match for your band</h1>
-              <label className="field">
-                Band name
-                <input
-                  maxLength={100}
-                  placeholder="e.g. The Echoes"
-                  value={bandName}
-                  onChange={(event) => setBandName(event.target.value)}
-                />
-              </label>
               <Bubbles
                 label="Band genres (optional)"
                 options={genreOptions}
@@ -224,13 +216,12 @@ export default function FestivalBrowser({
                   selectedDate={selectedDate}
                   selectedCity={selectedCity}
                   setSelectedCity={setSelectedCity}
+                  cityFestivals={cityFestivals}
+                  onCityEvent={showDetails}
                 />
                 <FestivalCalendar
                   key={`${bandGenres.join(",")}:${calendarDates[0] ?? today}`}
                   festivals={matchingFestivals}
-                  cityFestivals={cityFestivals}
-                  onClearCity={() => setSelectedCity("")}
-                  onCityEvent={showDetails}
                   initialDate={selectedDate || calendarDates[0] || today}
                   selectedDate={selectedDate}
                   onEvent={(festival, date) => {
@@ -435,7 +426,8 @@ export default function FestivalBrowser({
                   Gig matches
                 </h2>
                 <p>
-                  The saved dataset currently contains festival records only.
+                  Gig matching is in development.{" "}
+                  <Link href="/gigs">See how gigs will work</Link>.
                 </p>
               </div>
             )}
@@ -513,7 +505,34 @@ export default function FestivalBrowser({
                       : "Festival"}
                 </dd>
               </div>
+              {selected.capacity_cat && (
+                <div>
+                  <dt>Capacity</dt>
+                  <dd>{selected.capacity_cat}</dd>
+                </div>
+              )}
+              {selected.confidence_label && (
+                <div>
+                  <dt>Data confidence</dt>
+                  <dd>{selected.confidence_label}</dd>
+                </div>
+              )}
             </dl>
+            {!!selected.lineup?.length && (
+              <section className="call-panel">
+                <h3>Lineup</h3>
+                {selected.lineup.map((edition, index) => (
+                  <p key={index}>
+                    {edition.year && <strong>{edition.year} · </strong>}
+                    {edition.artists
+                      .map((artist) =>
+                        typeof artist === "string" ? artist : artist.name,
+                      )
+                      .join(", ")}
+                  </p>
+                ))}
+              </section>
+            )}
             <section className="call-panel">
               <h3>
                 {selected.open_call ? "Open call! 🎵" : "No active call found"}
@@ -523,6 +542,12 @@ export default function FestivalBrowser({
                   ? "The saved record includes an application link. Check the organiser’s page for current deadlines and eligibility."
                   : "The dataset has no active application link for this edition. Check the organiser’s website for booking information."}
               </p>
+              {selected.open_call && selected.open_call_deadline && (
+                <p>
+                  Application deadline ·{" "}
+                  {formatDate(selected.open_call_deadline)}
+                </p>
+              )}
               {selected.open_call && (
                 <ExternalLink
                   url={selected.open_call_url}
@@ -546,8 +571,17 @@ export default function FestivalBrowser({
               </p>
             )}
             <p className="detail-note">
-              Saved dataset from {formatDate(generated)}. Record details and
-              sources have not been rechecked by this app.
+              Saved dataset from {formatDate(generated)}.
+              {selected.last_checked && (
+                <>
+                  {" "}
+                  Agent check · {formatDate(selected.last_checked.slice(0, 10))}
+                  .
+                </>
+              )}
+              {selected.fresh === false && (
+                <> Verify current details with the organiser.</>
+              )}
             </p>
           </div>
         )}

@@ -13,6 +13,14 @@ export type Festival = {
   open_call_url: string | null;
   website: string | null;
   source_url: string;
+  lat?: number | null;
+  lon?: number | null;
+  lineup?: { year?: number | null; artists: (string | { name: string })[] }[];
+  confidence_label?: string | null;
+  last_checked?: string | null;
+  fresh?: boolean;
+  open_call_deadline?: string | null;
+  capacity_cat?: string | null;
 };
 
 export const genreLabels: Record<string, string> = {

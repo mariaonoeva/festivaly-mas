@@ -17,18 +17,12 @@ export function occursOn(festival: Festival, day: string) {
 
 export default function FestivalCalendar({
   festivals,
-  cityFestivals,
-  onCityEvent,
-  onClearCity,
   initialDate,
   selectedDate,
   onSelect,
   onEvent,
 }: {
   festivals: Festival[];
-  cityFestivals: Festival[];
-  onCityEvent: (festival: Festival) => void;
-  onClearCity: () => void;
   initialDate: string;
   selectedDate: string;
   onSelect: (date: string) => void;
@@ -65,8 +59,8 @@ export default function FestivalCalendar({
   }
 
   return (
-    <section className="festival-calendar" aria-label="Festival calendar">
-      <h2>Festival calendar</h2>
+    <section className="festival-calendar" aria-label="Calendar">
+      <h2>Calendar</h2>
       <div className="calendar-month">
         <button
           type="button"
@@ -142,20 +136,6 @@ export default function FestivalCalendar({
         </button>
       ) : (
         <p>Pick an event to open its details.</p>
-      )}
-      {cityFestivals.length > 0 && (
-        <section
-          className="calendar-events calendar-city-events"
-          aria-labelledby="city-events-title"
-        >
-          <div className="calendar-city-header">
-            <h3 id="city-events-title">Festivals in {cityFestivals[0].city}</h3>
-            <button className="text-button" type="button" onClick={onClearCity}>
-              Clear city
-            </button>
-          </div>
-          <CalendarEventList festivals={cityFestivals} onEvent={onCityEvent} />
-        </section>
       )}
     </section>
   );

@@ -7,3 +7,12 @@ out/
 .DS_Store
 
 next-env.d.ts
+
+# Agent runner state and Python dependencies
+.agent-state/
+.venv/
+__pycache__/
+*.py[cod]
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
