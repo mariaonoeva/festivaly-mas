@@ -66,10 +66,16 @@ def make_handler(settings: Settings, state_conn, llm=None):
             self.wfile.write(body)
 
         def _client_ip(self) -> str:
+            # Za proxy je soketová adresa vždy proxy (127.0.0.1) → všichni by sdíleli jeden limit.
+            if settings.client_ip_header:
+                value = (self.headers.get(settings.client_ip_header) or "").strip()
+                if value:
+                    return value[:64]
             if settings.trust_proxy:
-                fwd = self.headers.get("X-Forwarded-For", "")
+                # Poslední položku přidává naše proxy; první může podvrhnout klient.
+                fwd = [p.strip() for p in self.headers.get("X-Forwarded-For", "").split(",") if p.strip()]
                 if fwd:
-                    return fwd.split(",")[0].strip()
+                    return fwd[-1][:64]
             return self.client_address[0]
 
         def do_OPTIONS(self):

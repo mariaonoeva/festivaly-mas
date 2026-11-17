@@ -28,6 +28,7 @@ class Settings:
     chatbot_db: Path = STATE / "chatbot.sqlite"        # limity a ad hoc požadavky
     allowed_origins: tuple[str, ...] = ()
     trust_proxy: bool = False
+    client_ip_header: str | None = None   # např. CF-Connecting-IP za Cloudflare tunelem
     # Limity (útok na peněženku)
     max_message_chars: int = 500
     max_history_turns: int = 6
@@ -52,6 +53,7 @@ class Settings:
             chatbot_db=Path(os.getenv("CHAT_STATE_DB", str(cls.chatbot_db))),
             allowed_origins=origins,
             trust_proxy=os.getenv("CHAT_TRUST_PROXY") == "1",
+            client_ip_header=os.getenv("CHAT_CLIENT_IP_HEADER") or None,
             per_client_per_minute=_int("CHAT_PER_CLIENT_PER_MINUTE", cls.per_client_per_minute),
             per_client_per_day=_int("CHAT_PER_CLIENT_PER_DAY", cls.per_client_per_day),
             llm_calls_per_day=_int("CHAT_LLM_CALLS_PER_DAY", cls.llm_calls_per_day),

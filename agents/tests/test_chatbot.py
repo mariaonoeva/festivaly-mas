@@ -316,6 +316,21 @@ class Endpoint(ChatbotBase):
         codes = [self.post(base, {"message": "hi"})[0] for _ in range(3)]
         self.assertEqual(codes, [200, 200, 429])
 
+    def test_client_ip_header_behind_tunnel(self):
+        s = replace(self.settings, per_client_per_minute=1, client_ip_header="CF-Connecting-IP")
+        base = self.serve(s, scripted("x"))
+        a = self.post(base, {"message": "hi"}, {"CF-Connecting-IP": "203.0.113.1"})[0]
+        b = self.post(base, {"message": "hi"}, {"CF-Connecting-IP": "203.0.113.2"})[0]
+        a2 = self.post(base, {"message": "hi"}, {"CF-Connecting-IP": "203.0.113.1"})[0]
+        self.assertEqual((a, b, a2), (200, 200, 429))   # limit je na klienta, ne na tunel
+
+    def test_spoofed_forwarded_for_does_not_bypass_limit(self):
+        s = replace(self.settings, per_client_per_minute=1, trust_proxy=True)
+        base = self.serve(s, scripted("x"))
+        codes = [self.post(base, {"message": "hi"}, {"X-Forwarded-For": f"10.0.0.{i}, 198.51.100.7"})[0]
+                 for i in range(2)]
+        self.assertEqual(codes, [200, 429])
+
     def test_fail_closed_without_key_or_llm(self):
         base = self.serve(replace(self.settings, gemini_api_key=None), scripted("x"))
         self.assertEqual(self.post(base, {"message": "hi"})[0], 503)
