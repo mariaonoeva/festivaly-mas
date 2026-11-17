@@ -20,7 +20,10 @@ def _int(name: str, default: int) -> int:
 class Settings:
     # Klíč se čte jen ze serverového prostředí (.env není v gitu).
     gemini_api_key: str | None = None
-    gemini_model: str = "gemini-2.5-flash"
+    gemini_model: str = "gemini-3.8-flash"
+    # Záloha při přetížení hlavního modelu (503). Prázdné = bez zálohy.
+    gemini_fallback_model: str | None = "gemini-3.5-flash-lite"
+    llm_retry_delay: float = 2.0
     dataset_db: Path = STATE / "validator.sqlite"      # čte se jen v režimu read-only
     chatbot_db: Path = STATE / "chatbot.sqlite"        # limity a ad hoc požadavky
     allowed_origins: tuple[str, ...] = ()
@@ -44,6 +47,7 @@ class Settings:
         return cls(
             gemini_api_key=os.getenv("GEMINI_API_KEY") or None,
             gemini_model=os.getenv("GEMINI_MODEL", cls.gemini_model),
+            gemini_fallback_model=os.getenv("GEMINI_FALLBACK_MODEL", cls.gemini_fallback_model) or None,
             dataset_db=Path(os.getenv("CHAT_DATASET_DB", str(cls.dataset_db))),
             chatbot_db=Path(os.getenv("CHAT_STATE_DB", str(cls.chatbot_db))),
             allowed_origins=origins,

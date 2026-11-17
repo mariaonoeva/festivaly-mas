@@ -6,6 +6,7 @@ se skládá z výsledků nástrojů (ne z textu modelu), takže web ukazuje jen 
 from __future__ import annotations
 
 import logging
+import time
 from contextlib import closing
 from dataclasses import dataclass, field
 from datetime import datetime
@@ -90,6 +91,7 @@ Rules:
 @dataclass
 class TurnContext:
     client: str
+    model: str | None = None      # model, který v tomto dotazu odpověděl
     adhoc_used: int = 0
     festivals: dict = field(default_factory=dict)   # id -> {name, website, sources}
     adhoc: list = field(default_factory=list)
@@ -143,15 +145,45 @@ def _clean_history(history, settings) -> list:
     return out
 
 
+def _call_llm(llm, ctx: TurnContext, settings, state_conn, **kw) -> dict:
+    """Hlavní model, při přetížení jeden opakovaný pokus, pak záložní model.
+
+    Každý pokus se počítá do denního stropu volání. Jakmile se v rámci dotazu přepne
+    na zálohu, zůstane na ní (výsledky nástrojů už má v kontextu ona).
+    """
+    models = [settings.gemini_model, settings.gemini_model]
+    if settings.gemini_fallback_model and settings.gemini_fallback_model != settings.gemini_model:
+        models.append(settings.gemini_fallback_model)
+    if ctx.model:
+        models = [ctx.model, ctx.model]
+    last = None
+    for i, model in enumerate(models):
+        if i and models[i - 1] == model:
+            time.sleep(settings.llm_retry_delay)
+        limits.consume_llm_call(state_conn, settings)
+        try:
+            resp = llm(api_key=settings.gemini_api_key, model=model, tools=TOOL_DECLARATIONS,
+                       max_output_tokens=settings.max_output_tokens, **kw)
+        except gemini.LLMError as e:
+            log.warning("llm attempt failed: %s", e)
+            last = e
+            if not e.transient:
+                raise
+            continue
+        if model != settings.gemini_model:
+            log.warning("using fallback model %s", model)
+        ctx.model = model
+        return resp
+    raise last
+
+
 def answer(message: str, history, client: str, settings, state_conn, llm=gemini.generate) -> dict:
     ctx = TurnContext(client=client)
     contents = _clean_history(history, settings) + [{"role": "user", "parts": [{"text": message}]}]
     system = SYSTEM.format(today=datetime.now(PRAGUE).date().isoformat())
     text = None
     for _ in range(settings.max_tool_rounds + 1):
-        limits.consume_llm_call(state_conn, settings)
-        resp = llm(api_key=settings.gemini_api_key, model=settings.gemini_model, system=system,
-                   contents=contents, tools=TOOL_DECLARATIONS, max_output_tokens=settings.max_output_tokens)
+        resp = _call_llm(llm, ctx, settings, state_conn, system=system, contents=contents)
         cands = resp.get("candidates") or []
         content = (cands[0].get("content") if cands else None) or {}
         parts = content.get("parts") or []

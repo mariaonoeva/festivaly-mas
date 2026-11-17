@@ -66,7 +66,8 @@ class ChatbotBase(unittest.TestCase):
         self.state_path = Path(self.tmp.name) / f"chatbot-{self.id()}.sqlite"
         self.state = limits.connect(self.state_path)
         self.settings = Settings(gemini_api_key="test-key", dataset_db=self.dataset_db,
-                                 chatbot_db=self.state_path, allowed_origins=("https://festivaly-mas.vercel.app",))
+                                 chatbot_db=self.state_path, allowed_origins=("https://festivaly-mas.vercel.app",),
+                                 llm_retry_delay=0)
 
     def tearDown(self):
         self.state.close()
@@ -213,6 +214,38 @@ class AgentLoop(ChatbotBase):
         sent = llm.seen[0]
         self.assertEqual(sent[0]["role"], "user")
         self.assertLessEqual(len(sent), self.settings.max_history_turns + 1)
+
+
+class Fallback(ChatbotBase):
+    def flaky(self, fail_models, status):
+        calls = []
+
+        def llm(**kw):
+            calls.append(kw["model"])
+            if kw["model"] in fail_models:
+                raise LLMError(f"gemini http {status}", status=status)
+            return {"candidates": [{"content": {"parts": [{"text": f"from {kw['model']}"}]}}]}
+        llm.calls = calls
+        return llm
+
+    def test_overloaded_primary_switches_to_fallback(self):
+        llm = self.flaky({"gemini-3.8-flash"}, 503)
+        out = agent.answer("q", [], "c1", self.settings, self.state, llm=llm)
+        self.assertEqual(llm.calls, ["gemini-3.8-flash", "gemini-3.8-flash", "gemini-3.5-flash-lite"])
+        self.assertEqual(out["answer"], "from gemini-3.5-flash-lite")
+
+    def test_non_transient_error_is_not_retried(self):
+        llm = self.flaky({"gemini-3.8-flash"}, 404)
+        with self.assertRaises(LLMError):
+            agent.answer("q", [], "c1", self.settings, self.state, llm=llm)
+        self.assertEqual(llm.calls, ["gemini-3.8-flash"])
+
+    def test_all_models_down_fails_closed(self):
+        llm = self.flaky({"gemini-3.8-flash", "gemini-3.5-flash-lite"}, 503)
+        with self.assertRaises(LLMError):
+            agent.answer("q", [], "c1", self.settings, self.state, llm=llm)
+        used = self.state.execute("SELECT SUM(count) FROM usage WHERE bucket LIKE 'llm:%'").fetchone()[0]
+        self.assertEqual(used, 3)   # každý pokus se počítá do denního stropu
 
 
 class Endpoint(ChatbotBase):

@@ -38,7 +38,8 @@ python -m unittest discover -s tests                                     # 50 te
 | útok na peněženku | délka zprávy 500 znaků, 6 dotazů/min a 60/den na klienta, 300 volání Gemini/den, max. 4 kola nástrojů, 20 ad hoc hledání/den, dedupe |
 | únik klíče | klíč jen v `.env` na serveru, v hlavičce (ne v URL), nikdy v logu ani v odpovědi |
 | CORS / XSS | povolené jen domény z `CHAT_ALLOWED_ORIGINS`; JSON s `nosniff` a `CSP default-src 'none'` |
-| fail closed | bez klíče, při výpadku Gemini nebo chybějící DB → 503 s obecnou chybou |
+| výpadek Gemini | při 500/503 jeden opakovaný pokus, pak záložní model (`GEMINI_FALLBACK_MODEL`); každý pokus se počítá do denního stropu |
+| fail closed | bez klíče, když selže i záloha nebo chybí DB → 503 s obecnou chybou |
 | osobní údaje | IP se neukládá, jen solený hash pro limity |
 
 Free tier Gemini: data se mohou použít ke zlepšení produktů Googlu. Posíláme jen dotaz kapely
