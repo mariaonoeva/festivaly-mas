@@ -195,7 +195,7 @@ export default function ChatPanel() {
                 {m.festivals && <SourceList festivals={m.festivals} />}
               </div>
             ))}
-            {busy && <p className="chat-msg chat-model chat-typing">Searching the dataset…</p>}
+            {busy && <p className="chat-msg chat-model chat-typing">Thinking…</p>}
           </div>
 
           <form className="chat-form" onSubmit={onSubmit}>

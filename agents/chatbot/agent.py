@@ -88,7 +88,12 @@ Rules:
 - Say that a search was requested ONLY if a tool result in this conversation contains "queued": true.
   If "queued" is false, tell the user why. Never claim an action that no tool result confirms.
 - If a search result has a note, follow it (e.g. do not promise results for gigs).
-- Answer in the user's language, in plain text (no HTML). Be concise.
+- Answer in the language of the user's LATEST message (not earlier ones), in plain text (no HTML).
+- Be concise. Per festival: name, city, dates, genres, website. Add open call only if it exists,
+  confidence only if low. Never show raw field names or values like "has: false", "null" or "true".
+- Say once, at the end, which information is missing for all listed festivals (e.g. capacity),
+  instead of repeating it for each festival.
+- Small talk or questions outside festivals and gigs: answer briefly without calling tools and offer help.
 """
 
 
